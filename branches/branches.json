@@ -1,11 +1,13 @@
 {
     "branches": [
         {
+            "image": "necromancer/necromancer_00.png",
             "title": "The Necromancer",
             "description": "",
             "file": "necromancer/necromancer_01.json"
         },
         {
+            "image": "cursed_crown/cursed_crown_00.png",
             "title": "The Cursed Crown",
             "description": "",
             "file": "cursed_crown/cursed_crown_01.json"
