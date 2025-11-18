@@ -15,7 +15,7 @@
           "response": "Shout and demand they stop at once",
           "branch_id": 3,
           "effects": { "strength": 5, "energy": -10 },
-          "item": {"name": "blade of olympus", "description": "ended the great war", "icon": "fa fa-info"}
+          "items": [{"name": "blade of olympus", "description": "ended the great war", "icon": "fa fa-info"}]
         },
         {
           "response": "Throw a rock to distract them",
