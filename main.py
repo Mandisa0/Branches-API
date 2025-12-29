@@ -59,6 +59,7 @@ def initialiseBranch():
     for response in jsonData['branches'][branchIndex]['responses']:
         branchEffects = []
         branchItems = []
+        branchFile = ''
         if 'effects' in response:
             for key, effects in response['effects'].items():
                 branchEffects.append({key: effects})
@@ -67,7 +68,10 @@ def initialiseBranch():
             for key, items in response['items'].items():
                 branchItems.append({key:items})    
 
-        branchResponses.append({'branchId': response['branch_id'], 'branchEffects': branchEffects,'response': response['response'], 'items': branchItems})
+        if 'branch_file' in response:
+            branchFile = response['branch_file'] 
+
+        branchResponses.append({'branchFile': branchFile, 'branchId': response['branch_id'], 'branchEffects': branchEffects,'response': response['response'], 'items': branchItems})
 
     return jsonify({'branchImage': branchImage, 'nextBranchFile': nextBranchFile, 'branchText': branchText,  'branchResponses': branchResponses})
 
