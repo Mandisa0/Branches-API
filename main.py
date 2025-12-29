@@ -18,6 +18,14 @@ def getImage():
 
     return send_from_directory('images/', imageFile)
 
+@app.route('/get/randomImages')
+def getRandomImages():
+    
+    with open('images/randomImages.json', 'r') as data:
+        jsonData = json.load(data)
+
+    return jsonData
+
 @app.get("/get/branches")
 def getBranches():
 
