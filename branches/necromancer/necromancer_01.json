@@ -8,11 +8,13 @@
       "responses": [
         {
           "response": "Approach quietly, hand on sword hilt",
+          "branch_file": "necromancer/necromancer_01.json",
           "branch_id": 2,
           "effects": { "energy": -5 }
         },
         {
           "response": "Shout and demand they stop at once",
+          "branch_file": "necromancer/necromancer_01.json",
           "branch_id": 3,
           "effects": { "strength": 5, "energy": -10 },
           "items": [{"name": "blade of olympus", "description": "ended the great war", "icon": "fa fa-info"}],
@@ -20,6 +22,7 @@
         },
         {
           "response": "Throw a rock to distract them",
+          "branch_file": "necromancer/necromancer_01.json",
           "branch_id": 4,
           "effects": { "energy": -3 }
         }
@@ -31,6 +34,7 @@
       "responses": [
         {
           "response": "Draw your sword and rush in",
+          "branch_file": "necromancer/necromancer_01.json",
           "branch_id": 5,
           "effects": { "strength": 5, "health": -10 }
         }
@@ -42,6 +46,7 @@
       "responses": [
         {
           "response": "Cuff them and drag them to the dungeon",
+          "branch_file": "necromancer/necromancer_01.json",
           "branch_id": 5,
           "effects": { "strength": 5, "health": -5, "energy": -5 }
         }
@@ -53,6 +58,7 @@
       "responses": [
         {
           "response": "Take the chance to arrest them",
+          "branch_file": "necromancer/necromancer_01.json",
           "branch_id": 5,
           "effects": { "strength": 5, "energy": -5, "gold": 10 }
         }

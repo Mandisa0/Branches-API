@@ -1,6 +1,6 @@
 {
   "branchImage": "necromancer/necromancer_03.png",
-  "nextBranchFile": "necromancer/necromancer_04.json",
+  "nextBranchFile": null,
   "branches": [
     {
       "branch_id": 1,

@@ -8,16 +8,19 @@
       "responses": [
         {
           "response": "Tell them to save it for the magistrate",
+          "branch_file": "necromancer/necromancer_02.json",
           "branch_id": 2,
           "effects": { "energy": -5, "strength": 5 }
         },
         {
           "response": "Ask what they mean by \"sealing\"",
+          "branch_file": "necromancer/necromancer_02.json",
           "branch_id": 3,
           "effects": { "energy": -10 }
         },
         {
           "response": "Search their belongings for clues",
+          "branch_file": "necromancer/necromancer_02.json",
           "branch_id": 4,
           "effects": { "energy": -5, "gold": 5 }
         }
@@ -34,6 +37,7 @@
       "responses": [
         {
           "response": "Report this to your captain immediately",
+          "branch_file": "necromancer/necromancer_02.json",
           "branch_id": 5,
           "effects": { "energy": -10, "strength": 5, "health": -5 }
         }
@@ -45,6 +49,7 @@
       "responses": [
         {
           "response": "Pocket the amulet for inspection later",
+          "branch_file": "necromancer/necromancer_02.json",
           "branch_id": 5,
           "effects": { "gold": 10, "health": -5 }
         }
