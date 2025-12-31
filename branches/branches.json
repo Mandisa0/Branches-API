@@ -6,13 +6,6 @@
             "description": "You sense a foul presence nearby as the dead stir unnaturally. A hooded figure chants among the corpses - step closer and confront the necromancer.",
             "file": "necromancer/necromancer_01.json",
             "requirements": null
-        },
-        {
-            "image": "cursed_crown/cursed_crown_00.png",
-            "title": "The Cursed Crown",
-            "description": "An ominous crown rests on a stone altar, whispering promises of power. Reach out and claim the crown, despite the curse that clings to it.",
-            "file": "cursed_crown/cursed_crown_01.json",
-            "requirements": null
         }
     ]
 }
