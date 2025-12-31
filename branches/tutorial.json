@@ -1,0 +1,15 @@
+{
+    "branches": [
+        {
+            "image": "necromancer/necromancer_00.png",
+            "title": "The Necromancer",
+            "description": "Here you are reborn",
+            "file": "necromancer/necromancer_01.json",
+            "requirements": null
+        }
+    ]
+}
+
+
+
+

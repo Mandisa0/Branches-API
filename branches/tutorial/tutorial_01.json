@@ -1,0 +1,11 @@
+{
+    "branchImage": "tutorial/tutorial_01.png",
+    "nextBranchFile": null,
+    "branches": [
+        {
+            "branch_id": 1,
+            "text": "I am kind being... I grant you the ability to choose.",
+            "responses": []
+        }
+    ]
+}

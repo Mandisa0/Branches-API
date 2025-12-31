@@ -34,6 +34,14 @@ def getBranches():
 
     return jsonData
 
+@app.get("/get/tutorialBranch")
+def getTutorialBranch():
+
+    with open('branches/tutorial.json', 'r') as data:
+        jsonData = json.load(data)
+
+    return jsonData
+
 @app.get("/initialise/branch")
 def initialiseBranch():
 
