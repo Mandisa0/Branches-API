@@ -8,6 +8,7 @@
       "responses": [
         {
           "response": "Follow the amulet’s pulse to its source",
+          "branch_file": "necromancer/necromancer_07.json",
           "branch_id": 2,
           "effects": { "energy": -15, "health": -5, "strength": 5 }
         }
@@ -19,6 +20,7 @@
       "responses": [
         {
           "response": "Break the seal and confront whatever lies beyond",
+          "branch_file": "necromancer/necromancer_07.json",
           "branch_id": 3,
           "effects": { "energy": -20, "health": -10, "strength": 10 }
         }
@@ -30,6 +32,7 @@
       "responses": [
         {
           "response": "Channel all your strength into one final strike",
+          "branch_file": "necromancer/necromancer_07.json",
           "branch_id": 4,
           "effects": { "energy": -25, "health": -20, "strength": 15 }
         }

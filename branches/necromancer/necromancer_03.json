@@ -1,6 +1,6 @@
 {
   "branchImage": "necromancer/necromancer_03.png",
-  "nextBranchFile": null,
+  "nextBranchFile": "necromancer/necromancer_04.json",
   "branches": [
     {
       "branch_id": 1,
@@ -8,6 +8,7 @@
       "responses": [
         {
           "response": "Follow the pulse of the amulet into the sewers",
+          "branch_file": "necromancer/necromancer_03.json",
           "branch_id": 2,
           "effects": { "energy": -10, "health": -5, "strength": 5 }
         }
@@ -19,6 +20,7 @@
       "responses": [
         {
           "response": "Move cautiously toward the sound",
+          "branch_file": "necromancer/necromancer_03.json",
           "branch_id": 3,
           "effects": { "energy": -15, "health": -5 }
         }
@@ -30,6 +32,7 @@
       "responses": [
         {
           "response": "Press onward despite the danger",
+          "branch_file": "necromancer/necromancer_03.json",
           "branch_id": 4,
           "effects": { "energy": -10, "health": -5, "strength": 5 }
         }
@@ -41,6 +44,7 @@
       "responses": [
         {
           "response": "Confront the creature head-on",
+          "branch_file": "necromancer/necromancer_03.json",
           "branch_id": 5,
           "effects": { "energy": -20, "health": -15, "strength": 10 }
         }

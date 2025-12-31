@@ -8,6 +8,7 @@
       "responses": [
         {
           "response": "Investigate the rumors and see if any danger remains",
+          "branch_file": "necromancer/necromancer_05.json",
           "branch_id": 2,
           "effects": { "energy": -10, "strength": 5 }
         }
@@ -19,6 +20,7 @@
       "responses": [
         {
           "response": "Mark the alley and return to headquarters to plan",
+          "branch_file": "necromancer/necromancer_05.json",
           "branch_id": 3,
           "effects": { "energy": -5, "health": -5 }
         }

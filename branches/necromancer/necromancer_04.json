@@ -8,6 +8,7 @@
       "responses": [
         {
           "response": "Return to the city guard headquarters to report what happened",
+          "branch_file": "necromancer/necromancer_04.json",
           "branch_id": 2,
           "effects": { "energy": -10, "health": -5, "strength": 5, "gold": 10 }
         }
@@ -19,6 +20,7 @@
       "responses": [
         {
           "response": "Take a well-earned rest and reflect on what you faced",
+          "branch_file": "necromancer/necromancer_04.json",
           "branch_id": 3,
           "effects": { "energy": -5, "health": 5 }
         }

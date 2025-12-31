@@ -8,6 +8,7 @@
       "responses": [
         {
           "response": "Investigate the signs of disturbance in the old quarter",
+          "branch_file": "necromancer/necromancer_08.json",
           "branch_id": 2,
           "effects": { "energy": -10, "health": -5, "strength": 5 }
         }
@@ -19,6 +20,7 @@
       "responses": [
         {
           "response": "Enter the hidden passage cautiously",
+          "branch_file": "necromancer/necromancer_08.json",
           "branch_id": 3,
           "effects": { "energy": -15, "health": -5 }
         }
@@ -30,6 +32,7 @@
       "responses": [
         {
           "response": "Examine the runes and artifacts to understand the network",
+          "branch_file": "necromancer/necromancer_08.json",
           "branch_id": 4,
           "effects": { "energy": -20, "health": -10, "strength": 5, "gold": 5 }
         }

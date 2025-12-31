@@ -8,16 +8,19 @@
       "responses": [
         {
           "response": "Investigate the northern district tunnels",
+          "branch_file": "necromancer/necromancer_09.json",
           "branch_id": 2,
           "effects": { "energy": -15, "health": -5, "strength": 5 }
         },
         {
           "response": "Explore the submerged dock passages",
+          "branch_file": "necromancer/necromancer_09.json",
           "branch_id": 3,
           "effects": { "energy": -20, "health": -10, "strength": 5 }
         },
         {
           "response": "Descend into the catacombs under the graveyard",
+          "branch_file": "necromancer/necromancer_09.json",
           "branch_id": 4,
           "effects": { "energy": -15, "health": -5, "strength": 5 }
         }
@@ -29,6 +32,7 @@
       "responses": [
         {
           "response": "Continue toward the central chamber",
+          "branch_file": "necromancer/necromancer_09.json",
           "branch_id": 5,
           "effects": { "energy": -10, "health": -5, "strength": 5 }
         }
@@ -40,6 +44,7 @@
       "responses": [
         {
           "response": "Swim deeper toward the central chamber",
+          "branch_file": "necromancer/necromancer_09.json",
           "branch_id": 5,
           "effects": { "energy": -20, "health": -10, "strength": 5 }
         }
@@ -51,6 +56,7 @@
       "responses": [
         {
           "response": "Proceed toward the central chamber",
+          "branch_file": "necromancer/necromancer_09.json",
           "branch_id": 5,
           "effects": { "energy": -10, "health": -5, "strength": 5 }
         }

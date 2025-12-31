@@ -8,6 +8,7 @@
       "responses": [
         {
           "response": "Accept the honor but remain vigilant for future threats",
+          "branch_file": "necromancer/necromancer_10.json",
           "branch_id": 2,
           "effects": { "energy": -5, "health": 5, "strength": 5, "gold": 20 }
         }

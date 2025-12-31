@@ -8,6 +8,7 @@
       "responses": [
         {
           "response": "Investigate the cathedral discreetly",
+          "branch_file": "necromancer/necromancer_06.json",
           "branch_id": 2,
           "effects": { "energy": -15, "health": -5, "strength": 5 }
         }
@@ -19,6 +20,7 @@
       "responses": [
         {
           "response": "Step forward and reveal yourself",
+          "branch_file": "necromancer/necromancer_06.json",
           "branch_id": 3,
           "effects": { "energy": -20, "health": -10, "strength": 10 }
         }
@@ -30,6 +32,7 @@
       "responses": [
         {
           "response": "Return to headquarters to document the events and rest",
+          "branch_file": "necromancer/necromancer_06.json",
           "branch_id": 4,
           "effects": { "energy": -15, "health": -10, "strength": 5, "gold": 10 }
         }
