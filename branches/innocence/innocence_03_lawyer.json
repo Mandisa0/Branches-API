@@ -1,0 +1,36 @@
+{
+  "branchImage": "innocence/innocence_03.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 5,
+      "text": "Your lawyer lays out the grim reality. The case is stacked against you.",
+      "responses": [
+        {
+          "response": "Hire a private investigator",
+          "branch_file": "innocence/innocence_04_investigation.json",
+          "branch_id": 9,
+          "effects": {
+            "gold": -20
+          }
+        },
+        {
+          "response": "Trust the system",
+          "branch_file": "innocence/innocence_04_court.json",
+          "branch_id": 10,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Review the evidence yourself",
+          "branch_file": "innocence/innocence_04_evidence.json",
+          "branch_id": 11,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

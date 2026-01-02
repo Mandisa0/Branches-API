@@ -1,0 +1,36 @@
+{
+  "branchImage": "innocence/innocence_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "Your wife lies dead on the kitchen floor. Sirens wail outside. The officers barely let you speak before the cuffs snap shut around your wrists. No forced entry. No witnesses. To them, the case already feels closed. To you, it has only begun.",
+      "responses": [
+        {
+          "response": "Remain silent and ask for a lawyer",
+          "branch_file": "innocence/innocence_02_interrogation.json",
+          "branch_id": 2,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Try to explain everything immediately",
+          "branch_file": "innocence/innocence_02_interrogation.json",
+          "branch_id": 3,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Focus on remembering the night in detail",
+          "branch_file": "innocence/innocence_02_memory.json",
+          "branch_id": 4,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}

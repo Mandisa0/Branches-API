@@ -1,0 +1,20 @@
+{
+  "branchImage": "innocence/innocence_04_evidence.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 11,
+      "text": "A timestamp discrepancy suggests tampering.",
+      "responses": [
+        {
+          "response": "Show this to your lawyer",
+          "branch_file": "innocence/innocence_05_breakthrough.json",
+          "branch_id": 15,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}

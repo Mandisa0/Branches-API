@@ -1,0 +1,20 @@
+{
+  "branchImage": "innocence/innocence_04_court.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 10,
+      "text": "The trial advances without new evidence.",
+      "responses": [
+        {
+          "response": "Prepare for verdict",
+          "branch_file": "innocence/innocence_06_trial.json",
+          "branch_id": 14,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

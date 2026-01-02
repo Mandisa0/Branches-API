@@ -1,0 +1,29 @@
+{
+  "branchImage": "innocence/innocence_04.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 9,
+      "text": "A private investigator uncovers financial irregularities tied to a family friend.",
+      "responses": [
+        {
+          "response": "Follow the money",
+          "branch_file": "innocence/innocence_05_conspiracy.json",
+          "branch_id": 12,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Track down a witness",
+          "branch_file": "innocence/innocence_05_witness.json",
+          "branch_id": 13,
+          "effects": {
+            "energy": -5,
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

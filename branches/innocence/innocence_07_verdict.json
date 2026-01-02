@@ -1,0 +1,21 @@
+{
+  "branchImage": "innocence/innocence_07_verdict.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 18,
+      "text": "Guilty. The system failed you.",
+      "responses": []
+    },
+    {
+      "branch_id": 19,
+      "text": "Not guilty. Your name is cleared.",
+      "responses": []
+    },
+    {
+      "branch_id": 20,
+      "text": "Mistrial. Freedom, for now.",
+      "responses": []
+    }
+  ]
+}

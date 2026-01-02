@@ -1,0 +1,43 @@
+{
+  "branchImage": "innocence/innocence_02.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 2,
+      "text": "The interrogation room is cold and windowless. The detective lays out photos, timelines, and old arguments from your marriage.",
+      "responses": [
+        {
+          "response": "Stay calm and refuse to speculate",
+          "branch_file": "innocence/innocence_03_lawyer.json",
+          "branch_id": 5,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Push back against the accusations",
+          "branch_file": "innocence/innocence_03_lawyer.json",
+          "branch_id": 6,
+          "effects": {
+            "energy": -10,
+            "strength": 5
+          }
+        }
+      ]
+    },
+    {
+      "branch_id": 3,
+      "text": "You talk too much. Small details are twisted and written down.",
+      "responses": [
+        {
+          "response": "Stop talking and ask for a lawyer",
+          "branch_file": "innocence/innocence_03_lawyer.json",
+          "branch_id": 5,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}

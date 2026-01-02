@@ -1,0 +1,20 @@
+{
+  "branchImage": "innocence/innocence_05.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 12,
+      "text": "The money trail points to a paid cover\u2011up.",
+      "responses": [
+        {
+          "response": "Reveal it in court",
+          "branch_file": "innocence/innocence_06_trial.json",
+          "branch_id": 16,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -3,8 +3,15 @@
         {
             "image": "necromancer/necromancer_00.png",
             "title": "The Necromancer",
-            "description": "You sense a foul presence nearby as the dead stir unnaturally. A hooded figure chants among the corpses - step closer and confront the necromancer.",
+            "description": "'There is a foul presence in that alleyway.'",
             "file": "necromancer/necromancer_01.json",
+            "requirements": null
+        },
+        {
+            "image": "necromancer/necromancer_00.png",
+            "title": "Innocence",
+            "description": "'We've been arguing a lot lately, I feel bad.'",
+            "file": "innocence/innocence_01.json",
             "requirements": null
         }
     ]

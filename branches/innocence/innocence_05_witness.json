@@ -1,0 +1,21 @@
+{
+  "branchImage": "innocence/innocence_05_witness.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 13,
+      "text": "A witness saw another person with your wife that night.",
+      "responses": [
+        {
+          "response": "Convince them to testify",
+          "branch_file": "innocence/innocence_06_trial.json",
+          "branch_id": 17,
+          "effects": {
+            "energy": -10,
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

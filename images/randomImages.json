@@ -1,14 +1,13 @@
 {
     "randomImages": [
-        "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_01.png",
         "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_02.png",
-        "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_03.png",
         "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_04.png",
         "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_05.png",
-        "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_06.png",
-        "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_07.png",
         "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_08.png",
         "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_09.png",
-        "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_10.png"
+        "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_10.png",
+        "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_11.png",
+        "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_12.png",
+        "https://phantomstudio.co.za/branches/get/image?imageFile=randomImages/random_image_13.png" 
     ]
 }

@@ -1,0 +1,28 @@
+{
+  "branchImage": "innocence/innocence_02_memory.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 4,
+      "text": "Fragments return: a phone call, a raised voice, someone else involved.",
+      "responses": [
+        {
+          "response": "Tell police about the phone call",
+          "branch_file": "innocence/innocence_02_interrogation.json",
+          "branch_id": 7,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Keep it private for now",
+          "branch_file": "innocence/innocence_03_lawyer.json",
+          "branch_id": 8,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}

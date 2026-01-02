@@ -1,0 +1,20 @@
+{
+  "branchImage": "innocence/innocence_05_breakthrough.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 15,
+      "text": "Your lawyer believes this could change everything.",
+      "responses": [
+        {
+          "response": "Proceed to trial",
+          "branch_file": "innocence/innocence_06_trial.json",
+          "branch_id": 16,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}

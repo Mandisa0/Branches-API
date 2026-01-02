@@ -1,0 +1,48 @@
+{
+  "branchImage": "innocence/innocence_06_trial.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 14,
+      "text": "The jury listens as both sides rest.",
+      "responses": [
+        {
+          "response": "Await verdict",
+          "branch_file": "innocence/innocence_07_verdict.json",
+          "branch_id": 18,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    },
+    {
+      "branch_id": 16,
+      "text": "New evidence destabilizes the prosecution.",
+      "responses": [
+        {
+          "response": "Press for acquittal",
+          "branch_file": "innocence/innocence_07_verdict.json",
+          "branch_id": 19,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    },
+    {
+      "branch_id": 17,
+      "text": "Witness testimony shifts suspicion.",
+      "responses": [
+        {
+          "response": "Let the jury decide",
+          "branch_file": "innocence/innocence_07_verdict.json",
+          "branch_id": 20,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}
