@@ -1,0 +1,36 @@
+{
+  "branchImage": "oathbound/oathbound_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "The crown screams when the prince wears it. Only you hear the sound. The court calls it stress. The priests call it destiny. You know better.",
+      "responses": [
+        {
+          "response": "Investigate the royal bloodline records",
+          "branch_file": "oathbound/oathbound_02_records.json",
+          "branch_id": 2,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Consult the ancient crown-ward priests",
+          "branch_file": "oathbound/oathbound_02_priests.json",
+          "branch_id": 3,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Swear loyalty to the prince",
+          "branch_file": "oathbound/oathbound_02_loyalty.json",
+          "branch_id": 4,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

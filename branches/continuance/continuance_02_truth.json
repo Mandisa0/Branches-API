@@ -1,0 +1,20 @@
+{
+  "branchImage": "continuance/continuance_02_truth.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 3,
+      "text": "The Anchor was never meant to last. It was activated in panic, not wisdom.",
+      "responses": [
+        {
+          "response": "Search for who activated the Anchors",
+          "branch_file": "continuance/continuance_03_origin.json",
+          "branch_id": 6,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "branchImage": "oathbound/oathbound_02_loyalty.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 4,
+      "text": "You suppress doubt. The prince weakens, but the realm remains stable.",
+      "responses": [
+        {
+          "response": "Continue enforcing loyalty",
+          "branch_file": "oathbound/oathbound_04_loyal_end.json",
+          "branch_id": 9,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

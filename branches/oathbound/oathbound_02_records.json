@@ -1,0 +1,28 @@
+{
+  "branchImage": "oathbound/oathbound_02_records.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 2,
+      "text": "The archives reveal altered ledgers. A royal child erased during a border purge.",
+      "responses": [
+        {
+          "response": "Search for the lost heir",
+          "branch_file": "oathbound/oathbound_03_heir.json",
+          "branch_id": 5,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Destroy the records",
+          "branch_file": "oathbound/oathbound_04_loyal_end.json",
+          "branch_id": 9,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

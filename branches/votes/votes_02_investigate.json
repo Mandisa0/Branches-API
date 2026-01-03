@@ -1,0 +1,20 @@
+{
+  "branchImage": "votes/votes_02_investigate.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 3,
+      "text": "You trace voting patterns and uncover abnormal belief surges beneath the city.",
+      "responses": [
+        {
+          "response": "Descend to the belief engines",
+          "branch_file": "votes/votes_03_engines.json",
+          "branch_id": 6,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

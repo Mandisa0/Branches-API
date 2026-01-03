@@ -1,0 +1,36 @@
+{
+  "branchImage": "key/key_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "The key appears in your hand at dawn. It is warm, impossibly heavy. By nightfall, the city knows you are the Bearer.",
+      "responses": [
+        {
+          "response": "Seek the Vault immediately",
+          "branch_file": "key/key_02_vault.json",
+          "branch_id": 2,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Hide among the outer districts",
+          "branch_file": "key/key_02_hide.json",
+          "branch_id": 3,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Ask scholars about the Vault",
+          "branch_file": "key/key_02_scholars.json",
+          "branch_id": 4,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}

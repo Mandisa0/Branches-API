@@ -1,0 +1,11 @@
+{
+  "branchImage": "votes/votes_end_tyrant.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 10,
+      "text": "There are no ballots now. Only your will.",
+      "responses": []
+    }
+  ]
+}

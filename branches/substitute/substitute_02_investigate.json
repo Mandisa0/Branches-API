@@ -1,0 +1,28 @@
+{
+  "branchImage": "substitute/substitute_02_investigate.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 3,
+      "text": "Records show improvements across your life since your replacement appeared.",
+      "responses": [
+        {
+          "response": "Expose the replacement program",
+          "branch_file": "substitute/substitute_end_expose.json",
+          "branch_id": 7,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Accept the substitute\u2019s success",
+          "branch_file": "substitute/substitute_end_accept.json",
+          "branch_id": 8,
+          "effects": {
+            "health": -5
+          }
+        }
+      ]
+    }
+  ]
+}

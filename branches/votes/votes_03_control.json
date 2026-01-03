@@ -1,0 +1,21 @@
+{
+  "branchImage": "votes/votes_03_control.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 7,
+      "text": "Votes start aligning with your changes. Citizens whisper your name.",
+      "responses": [
+        {
+          "response": "Assume full control",
+          "branch_file": "votes/votes_end_tyrant.json",
+          "branch_id": 10,
+          "effects": {
+            "strength": 10,
+            "health": -10
+          }
+        }
+      ]
+    }
+  ]
+}

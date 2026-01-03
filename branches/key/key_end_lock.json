@@ -1,0 +1,11 @@
+{
+  "branchImage": "key/key_end_lock.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 8,
+      "text": "You remain. The Vault stays sealed because you never leave it.",
+      "responses": []
+    }
+  ]
+}

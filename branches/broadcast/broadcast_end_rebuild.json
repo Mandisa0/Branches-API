@@ -1,0 +1,11 @@
+{
+  "branchImage": "broadcast/broadcast_end_rebuild.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 10,
+      "text": "Civilization begins again, fragile but real.",
+      "responses": []
+    }
+  ]
+}

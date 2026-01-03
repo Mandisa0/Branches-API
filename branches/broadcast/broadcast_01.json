@@ -1,0 +1,36 @@
+{
+  "branchImage": "broadcast/broadcast_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "Static fills the room as the generator hums. You\u2019ve sent the same message for years. Tonight, the static changes. A voice breaks through: \"Is anyone there?\"",
+      "responses": [
+        {
+          "response": "Respond immediately",
+          "branch_file": "broadcast/broadcast_02_contact.json",
+          "branch_id": 2,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Monitor the signal silently",
+          "branch_file": "broadcast/broadcast_02_monitor.json",
+          "branch_id": 3,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Shut down the transmitter",
+          "branch_file": "broadcast/broadcast_02_silence.json",
+          "branch_id": 4,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

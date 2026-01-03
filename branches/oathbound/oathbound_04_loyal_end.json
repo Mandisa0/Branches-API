@@ -1,0 +1,11 @@
+{
+  "branchImage": "oathbound/oathbound_04_loyal.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 9,
+      "text": "The prince rules. The curse sleeps, not gone. Peace holds \u2014 barely.",
+      "responses": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "branchImage": "key/key_02_scholars.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 4,
+      "text": "The scholars whisper: the Vault was sealed to protect the world.",
+      "responses": [
+        {
+          "response": "Become the lock",
+          "branch_file": "key/key_end_lock.json",
+          "branch_id": 8,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

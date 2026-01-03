@@ -1,0 +1,11 @@
+{
+  "branchImage": "substitute/substitute_end_accept.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 8,
+      "text": "The substitute stays. The world improves. You fade.",
+      "responses": []
+    }
+  ]
+}

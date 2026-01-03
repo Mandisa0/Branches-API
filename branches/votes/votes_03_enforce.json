@@ -1,0 +1,20 @@
+{
+  "branchImage": "votes/votes_03_enforce.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 5,
+      "text": "Citizens adapt quickly. Hunger becomes efficiency. Compassion erodes.",
+      "responses": [
+        {
+          "response": "Let the system optimize",
+          "branch_file": "votes/votes_end_collapse.json",
+          "branch_id": 8,
+          "effects": {
+            "health": -10
+          }
+        }
+      ]
+    }
+  ]
+}

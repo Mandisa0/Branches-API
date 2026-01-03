@@ -1,0 +1,28 @@
+{
+  "branchImage": "broadcast/broadcast_02_contact.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 2,
+      "text": "The voice responds with relief. They are not alone. Neither are you.",
+      "responses": [
+        {
+          "response": "Share the truth about the world",
+          "branch_file": "broadcast/broadcast_03_truth.json",
+          "branch_id": 5,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Offer hope instead of facts",
+          "branch_file": "broadcast/broadcast_03_hope.json",
+          "branch_id": 6,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}

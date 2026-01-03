@@ -1,0 +1,11 @@
+{
+  "branchImage": "key/key_end_flight.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 7,
+      "text": "You run forever. The burden never leaves.",
+      "responses": []
+    }
+  ]
+}

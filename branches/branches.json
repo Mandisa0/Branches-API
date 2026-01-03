@@ -1,17 +1,66 @@
 {
     "branches": [
         {
-            "image": "necromancer/necromancer_00.png",
+            "image": "",
             "title": "The Necromancer",
             "description": "'There is a foul presence in that alleyway.'",
             "file": "necromancer/necromancer_01.json",
             "requirements": null
-        },
+        }
+        ,
         {
-            "image": "necromancer/necromancer_00.png",
+            "image": "",
             "title": "Innocence",
             "description": "'We've been arguing a lot lately, I feel bad.'",
             "file": "innocence/innocence_01.json",
+            "requirements": null
+        }
+        ,
+        {
+            "image": "",
+            "title": "Oathbound",
+            "description": "'Finally, the prince is about to be crowned.'",
+            "file": "oathbound/oathbound_01.json",
+            "requirements": null
+        }
+        ,
+        {
+            "image": "",
+            "title": "Continuance",
+            "description": "'Damn this sky to hell.'",
+            "file": "continuance/continuance_01.json",
+            "requirements": null
+        }
+        ,
+        {
+            "image": "",
+            "title": "Votes",
+            "description": "'The city votes just came in.'",
+            "file": "votes/votes_01.json",
+            "requirements": null
+        }
+        ,
+        {
+            "image": "",
+            "title": "Substitute",
+            "description": "'My key feels different for some reason.'",
+            "file": "substitute/substitute_01.json",
+            "requirements": null
+        }
+        ,
+        {
+            "image": "",
+            "title": "Broadcast",
+            "description": "'Let me try sending the message again.'",
+            "file": "broadcast/broadcast_01.json",
+            "requirements": null
+        }
+        ,
+        {
+            "image": "",
+            "title": "Key",
+            "description": "'I wonder who will be chosen this time?'",
+            "file": "key/key_01.json",
             "requirements": null
         }
     ]

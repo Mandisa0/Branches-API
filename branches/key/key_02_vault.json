@@ -1,0 +1,28 @@
+{
+  "branchImage": "key/key_02_vault.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 2,
+      "text": "The Vault looms beneath the city. Crowds gather, pleading.",
+      "responses": [
+        {
+          "response": "Open the Vault",
+          "branch_file": "key/key_end_open.json",
+          "branch_id": 5,
+          "effects": {
+            "health": -10
+          }
+        },
+        {
+          "response": "Refuse and turn away",
+          "branch_file": "key/key_end_refuse.json",
+          "branch_id": 6,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

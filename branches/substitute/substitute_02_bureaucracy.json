@@ -1,0 +1,28 @@
+{
+  "branchImage": "substitute/substitute_02_bureaucracy.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 4,
+      "text": "You are informed that you have been legally marked as non-essential.",
+      "responses": [
+        {
+          "response": "Appeal your status",
+          "branch_file": "substitute/substitute_03_appeal.json",
+          "branch_id": 9,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Accept dissolution",
+          "branch_file": "substitute/substitute_end_erased.json",
+          "branch_id": 10,
+          "effects": {
+            "health": -10
+          }
+        }
+      ]
+    }
+  ]
+}

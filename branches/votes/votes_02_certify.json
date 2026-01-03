@@ -1,0 +1,20 @@
+{
+  "branchImage": "votes/votes_02_certify.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 2,
+      "text": "You certify the vote. At dawn, shelves empty and hunger becomes law.",
+      "responses": [
+        {
+          "response": "Manage ration enforcement",
+          "branch_file": "votes/votes_03_enforce.json",
+          "branch_id": 5,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

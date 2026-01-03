@@ -1,0 +1,36 @@
+{
+  "branchImage": "votes/votes_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "Midnight bells fade. The ledger confirms it: the city has voted for a famine despite full granaries. At dawn, the vote becomes truth.",
+      "responses": [
+        {
+          "response": "Certify the vote as written",
+          "branch_file": "votes/votes_02_certify.json",
+          "branch_id": 2,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Delay certification to investigate",
+          "branch_file": "votes/votes_02_investigate.json",
+          "branch_id": 3,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Quietly alter turnout totals",
+          "branch_file": "votes/votes_02_tamper.json",
+          "branch_id": 4,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

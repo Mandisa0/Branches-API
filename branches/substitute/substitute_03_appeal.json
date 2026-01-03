@@ -1,0 +1,21 @@
+{
+  "branchImage": "substitute/substitute_03_appeal.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 9,
+      "text": "You must prove emotional uniqueness before a panel.",
+      "responses": [
+        {
+          "response": "Fight for reinstatement",
+          "branch_file": "substitute/substitute_end_reclaim.json",
+          "branch_id": 12,
+          "effects": {
+            "energy": -10,
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

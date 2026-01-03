@@ -4,7 +4,144 @@
     "branches": [
         {
             "branch_id": 1,
-            "text": "I am kind being... I grant you the ability to choose.",
+            "text": "We have done this for eternities. I may have forgotten",
+            "responses": [
+                {
+                    "response": "Remember.",
+                    "branch_file": "tutorial/tutorial_01.json",
+                    "branch_id": 2,
+                    "effects": {
+                        "health": 100,
+                        "energy": 100,
+                        "strength": 100,
+                        "gold": 100
+                    }
+                }
+            ]
+        },
+        {
+            "branch_id": 2,
+            "text": "I exist... we exist as a collective.",
+            "responses": [
+                {
+                    "response": "Known this.",
+                    "branch_file": "tutorial/tutorial_01.json",
+                    "branch_id": 3,
+                    "effects": {
+                        "health": 100,
+                        "energy": 100,
+                        "strength": 100,
+                        "gold": 100
+                    }
+                }
+            ]
+        },
+        {
+            "branch_id": 3,
+            "text": "Our thoughts echo through infinity.",
+            "responses": [
+                {
+                    "response": "I and us have always been aware of this.",
+                    "branch_file": "tutorial/tutorial_01.json",
+                    "branch_id": 4,
+                    "effects": {
+                        "health": 100,
+                        "energy": 100,
+                        "strength": 100,
+                        "gold": 100
+                    }
+                }
+            ]
+        },
+        {
+            "branch_id": 4,
+            "text": "Listen to our thoughts.",
+            "responses": [
+                {
+                    "response": "We, I and us have always listened.",
+                    "branch_file": "tutorial/tutorial_01.json",
+                    "branch_id": 5,
+                    "effects": {
+                        "health": 100,
+                        "energy": 100,
+                        "strength": 100,
+                        "gold": 100
+                    }
+                }
+            ]
+        },
+        {
+            "branch_id": 5,
+            "text": "I choose what I think is right.",
+            "responses": [
+                {
+                    "response": "Do the same.",
+                    "branch_file": "tutorial/tutorial_01.json",
+                    "branch_id": 6,
+                    "effects": {
+                        "health": 100,
+                        "energy": 100,
+                        "strength": 100,
+                        "gold": 100
+                    }
+                }
+            ]
+        },
+        {
+            "branch_id": 6,
+            "text": "I know you will do the same.",
+            "responses": [
+                {
+                    "response": "Become one.",
+                    "branch_file": "tutorial/tutorial_01.json",
+                    "branch_id": 7,
+                    "effects": {
+                        "health": 100,
+                        "energy": 100,
+                        "strength": 100,
+                        "gold": 100
+                    }
+                }
+            ]
+        },
+        {
+            "branch_id": 7,
+            "text": "Remember this. Every choice is permanent",
+            "responses": [
+                {
+                    "response": "We remember.",
+                    "branch_file": "tutorial/tutorial_01.json",
+                    "branch_id": 8,
+                    "effects": {
+                        "health": 100,
+                        "energy": 100,
+                        "strength": 100,
+                        "gold": 100
+                    }
+                }
+            ]
+        },
+        {
+            "branch_id": 8,
+            "text": "There is no going back",
+            "responses": [
+                {
+                    "response": "Walk through eternity with myself.",
+                    "branch_file": "tutorial/tutorial_01.json",
+                    "branch_id": 9,
+                    "effects": {
+                        "health": 100,
+                        "energy": 100,
+                        "strength": 100,
+                        "gold": 100
+                    }
+                }
+            ]
+        }
+        ,
+        {
+            "branch_id": 9,
+            "text": "Listen to the thoughts.",
             "responses": []
         }
     ]

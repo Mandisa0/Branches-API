@@ -1,10 +1,10 @@
 {
     "branches": [
         {
-            "image": "necromancer/necromancer_00.png",
-            "title": "The Necromancer",
-            "description": "Here you are reborn",
-            "file": "necromancer/necromancer_01.json",
+            "image": "tutorial/tutorial_01.png",
+            "title": "Remembrance",
+            "description": "Here you and I are reborn again into us.",
+            "file": "tutorial/tutorial_01.json",
             "requirements": null
         }
     ]

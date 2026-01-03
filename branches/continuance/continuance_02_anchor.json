@@ -1,0 +1,20 @@
+{
+  "branchImage": "continuance/continuance_02_anchor.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 2,
+      "text": "You reinforce the Anchor. The world shudders, then holds. It costs you something.",
+      "responses": [
+        {
+          "response": "Move to the next Anchor",
+          "branch_file": "continuance/continuance_03_decay.json",
+          "branch_id": 5,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

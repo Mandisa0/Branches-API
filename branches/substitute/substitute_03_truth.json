@@ -1,0 +1,20 @@
+{
+  "branchImage": "substitute/substitute_03_truth.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 6,
+      "text": "They were built from your regrets, optimized for stability.",
+      "responses": [
+        {
+          "response": "Merge with the substitute",
+          "branch_file": "substitute/substitute_end_merge.json",
+          "branch_id": 11,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

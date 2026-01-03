@@ -1,0 +1,11 @@
+{
+  "branchImage": "broadcast/broadcast_end_panic.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 9,
+      "text": "The signal brings chaos. You are not forgiven.",
+      "responses": []
+    }
+  ]
+}

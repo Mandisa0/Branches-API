@@ -1,0 +1,11 @@
+{
+  "branchImage": "key/key_end_refuse.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 6,
+      "text": "You refuse. The city survives, divided and bitter.",
+      "responses": []
+    }
+  ]
+}

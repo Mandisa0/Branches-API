@@ -1,0 +1,28 @@
+{
+  "branchImage": "oathbound/oathbound_02_priests.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 3,
+      "text": "The priests confess the crown is sentient. It punishes false kings.",
+      "responses": [
+        {
+          "response": "Awaken the crown fully",
+          "branch_file": "oathbound/oathbound_03_crown.json",
+          "branch_id": 6,
+          "effects": {
+            "energy": -15
+          }
+        },
+        {
+          "response": "Bind the crown\u2019s will",
+          "branch_file": "oathbound/oathbound_04_loyal_end.json",
+          "branch_id": 9,
+          "effects": {
+            "gold": -10
+          }
+        }
+      ]
+    }
+  ]
+}

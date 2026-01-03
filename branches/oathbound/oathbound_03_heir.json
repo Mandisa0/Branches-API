@@ -1,0 +1,28 @@
+{
+  "branchImage": "oathbound/oathbound_03_heir.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 5,
+      "text": "You find the heir living as a commoner, unaware of their blood.",
+      "responses": [
+        {
+          "response": "Reveal the truth",
+          "branch_file": "oathbound/oathbound_05_true_end.json",
+          "branch_id": 10,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Use them as leverage",
+          "branch_file": "oathbound/oathbound_05_player_end.json",
+          "branch_id": 12,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

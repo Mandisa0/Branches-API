@@ -1,0 +1,20 @@
+{
+  "branchImage": "broadcast/broadcast_03_trace.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 7,
+      "text": "The signal origin is wrong \u2014 moving, watching.",
+      "responses": [
+        {
+          "response": "Warn others",
+          "branch_file": "broadcast/broadcast_end_watchers.json",
+          "branch_id": 11,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

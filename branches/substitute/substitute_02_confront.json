@@ -1,0 +1,29 @@
+{
+  "branchImage": "substitute/substitute_02_confront.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 2,
+      "text": "The substitute doesn\u2019t panic. They apologize. They say they were made to fix what you couldn\u2019t.",
+      "responses": [
+        {
+          "response": "Attack them",
+          "branch_file": "substitute/substitute_end_violent.json",
+          "branch_id": 5,
+          "effects": {
+            "health": -10,
+            "strength": 5
+          }
+        },
+        {
+          "response": "Listen to what they know",
+          "branch_file": "substitute/substitute_03_truth.json",
+          "branch_id": 6,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "branchImage": "substitute/substitute_end_erased.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 10,
+      "text": "You are removed by consensus. No one remembers.",
+      "responses": []
+    }
+  ]
+}

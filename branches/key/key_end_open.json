@@ -1,0 +1,11 @@
+{
+  "branchImage": "key/key_end_open.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 5,
+      "text": "The Vault opens. Something ancient ends. Something else begins.",
+      "responses": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "branchImage": "broadcast/broadcast_03_truth.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 5,
+      "text": "The truth spreads fast. Panic follows hope.",
+      "responses": [
+        {
+          "response": "Continue broadcasting",
+          "branch_file": "broadcast/broadcast_end_panic.json",
+          "branch_id": 9,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

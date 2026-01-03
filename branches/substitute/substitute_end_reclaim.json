@@ -1,0 +1,11 @@
+{
+  "branchImage": "substitute/substitute_end_reclaim.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 12,
+      "text": "You are reinstated. The city destabilizes immediately.",
+      "responses": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "branchImage": "broadcast/broadcast_02_silence.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 4,
+      "text": "The transmitter powers down. The night is silent again.",
+      "responses": [
+        {
+          "response": "Remain isolated",
+          "branch_file": "broadcast/broadcast_end_silence.json",
+          "branch_id": 8,
+          "effects": {
+            "health": -5
+          }
+        }
+      ]
+    }
+  ]
+}

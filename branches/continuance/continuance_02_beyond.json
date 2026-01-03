@@ -1,0 +1,20 @@
+{
+  "branchImage": "continuance/continuance_02_beyond.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 4,
+      "text": "Beyond the freeze, time flows. New life exists \u2014 warped, changed.",
+      "responses": [
+        {
+          "response": "Enter the resumed world",
+          "branch_file": "continuance/continuance_03_newworld.json",
+          "branch_id": 7,
+          "effects": {
+            "health": -10
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "branchImage": "substitute/substitute_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "Your key works. Your name is on the door. Inside, someone else is cooking dinner \u2014 and they turn around wearing your face.",
+      "responses": [
+        {
+          "response": "Confront the substitute",
+          "branch_file": "substitute/substitute_02_confront.json",
+          "branch_id": 2,
+          "effects": {
+            "strength": 5
+          }
+        },
+        {
+          "response": "Leave quietly and gather proof",
+          "branch_file": "substitute/substitute_02_investigate.json",
+          "branch_id": 3,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Go to the Identity Office",
+          "branch_file": "substitute/substitute_02_bureaucracy.json",
+          "branch_id": 4,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

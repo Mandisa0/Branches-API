@@ -1,0 +1,11 @@
+{
+  "branchImage": "substitute/substitute_end_merge.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 11,
+      "text": "You merge. One life remains \u2014 uncertain which of you survived.",
+      "responses": []
+    }
+  ]
+}

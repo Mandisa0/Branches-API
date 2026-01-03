@@ -1,0 +1,20 @@
+{
+  "branchImage": "continuance/continuance_03_decay.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 5,
+      "text": "Each Anchor stabilized drains you. The world survives, but you weaken.",
+      "responses": [
+        {
+          "response": "Sacrifice yourself to sustain the Anchors",
+          "branch_file": "continuance/continuance_end_eternal.json",
+          "branch_id": 8,
+          "effects": {
+            "health": -20
+          }
+        }
+      ]
+    }
+  ]
+}

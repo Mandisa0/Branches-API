@@ -1,0 +1,11 @@
+{
+  "branchImage": "broadcast/broadcast_end_silence.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 8,
+      "text": "You survive alone. The world stays quiet.",
+      "responses": []
+    }
+  ]
+}

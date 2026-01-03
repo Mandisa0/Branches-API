@@ -1,0 +1,36 @@
+{
+  "branchImage": "continuance/continuance_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "The sky has been red for three hundred years. Rivers hang mid-fall. Cities rot without collapsing. You stand at the First Anchor, listening to a world refusing to end.",
+      "responses": [
+        {
+          "response": "Stabilize the First Anchor",
+          "branch_file": "continuance/continuance_02_anchor.json",
+          "branch_id": 2,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Investigate why the Anchor is failing",
+          "branch_file": "continuance/continuance_02_truth.json",
+          "branch_id": 3,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Walk beyond the frozen horizon",
+          "branch_file": "continuance/continuance_02_beyond.json",
+          "branch_id": 4,
+          "effects": {
+            "health": -5
+          }
+        }
+      ]
+    }
+  ]
+}

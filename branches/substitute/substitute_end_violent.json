@@ -1,0 +1,11 @@
+{
+  "branchImage": "substitute/substitute_end_violent.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 5,
+      "text": "You reclaim your life through violence. Everything falls apart.",
+      "responses": []
+    }
+  ]
+}
