@@ -1,0 +1,11 @@
+{
+  "branchImage": "tutorial/tutorial_02_begin.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 4,
+      "text": "You step forward without instruction. The world will teach you in its own way.",
+      "responses": []
+    }
+  ]
+}

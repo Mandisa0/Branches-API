@@ -1,0 +1,20 @@
+{
+  "branchImage": "tutorial/tutorial_02_choices.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 2,
+      "text": "Each response you choose sends you down a different path. Some paths reconnect. Others end forever.",
+      "responses": [
+        {
+          "response": "Learn about consequences",
+          "branch_file": "tutorial/tutorial_03_consequences.json",
+          "branch_id": 5,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}

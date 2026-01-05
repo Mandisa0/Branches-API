@@ -3,69 +3,58 @@
         {
             "image": "",
             "title": "The Necromancer",
-            "description": "'There is a foul presence in that alleyway.'",
+            "description": "A routine patrol leads you toward something forbidden. Whatever is happening in that alley should not exist.",
             "file": "necromancer/necromancer_01.json",
             "requirements": null
-        }
-        ,
+        },
         {
             "image": "",
             "title": "Innocence",
-            "description": "'We've been arguing a lot lately, I feel bad.'",
+            "description": "A quiet night ends in sirens and accusations. Everything you say - or don't - may decide your fate.",
             "file": "innocence/innocence_01.json",
             "requirements": null
-        }
-        ,
+        },
         {
             "image": "",
             "title": "Oathbound",
-            "description": "'Finally, the prince is about to be crowned.'",
+            "description": "A crown is about to be placed upon a prince's head. You are the only one who hears it protest.",
             "file": "oathbound/oathbound_01.json",
             "requirements": null
-        }
-        ,
+        },
         {
             "image": "",
             "title": "Continuance",
-            "description": "'Damn this sky to hell.'",
+            "description": "The world has refused to end. You stand among the mechanisms holding it in place.",
             "file": "continuance/continuance_01.json",
             "requirements": null
-        }
-        ,
+        },
         {
             "image": "",
             "title": "Votes",
-            "description": "'The city votes just came in.'",
+            "description": "The results are clear. The consequences are not. At dawn, the decision becomes reality.",
             "file": "votes/votes_01.json",
             "requirements": null
-        }
-        ,
+        },
         {
             "image": "",
             "title": "Substitute",
-            "description": "'My key feels different for some reason.'",
+            "description": "Your key works. Your life looks right. Something about it feels deeply wrong.",
             "file": "substitute/substitute_01.json",
             "requirements": null
-        }
-        ,
+        },
         {
             "image": "",
             "title": "Broadcast",
-            "description": "'Let me try sending the message again.'",
+            "description": "You have been transmitting into silence for years. Tonight, something answers.",
             "file": "broadcast/broadcast_01.json",
             "requirements": null
-        }
-        ,
+        },
         {
             "image": "",
             "title": "Key",
-            "description": "'I wonder who will be chosen this time?'",
+            "description": "The artifact has chosen someone again. This time, it chose you.",
             "file": "key/key_01.json",
             "requirements": null
         }
     ]
 }
-
-
-
-

@@ -2,14 +2,10 @@
     "branches": [
         {
             "image": "tutorial/tutorial_01.png",
-            "title": "Remembrance",
-            "description": "Here you and I are reborn again into us.",
+            "title": "How This World Works",
+            "description": "This is a collection of short, choice-driven stories. Each scenario places you in the role of a different character. Your choices determine how each story unfolds and how it ends.",
             "file": "tutorial/tutorial_01.json",
             "requirements": null
         }
     ]
 }
-
-
-
-

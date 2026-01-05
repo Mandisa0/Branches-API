@@ -1,148 +1,33 @@
 {
-    "branchImage": "tutorial/tutorial_01.png",
-    "nextBranchFile": null,
-    "branches": [
+  "branchImage": "tutorial/tutorial_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "You awaken at a crossroads of thought. This world moves only when you choose. Every decision carries weight, shaping what comes next.",
+      "responses": [
         {
-            "branch_id": 1,
-            "text": "We have done this for eternities. I may have forgotten",
-            "responses": [
-                {
-                    "response": "Remember.",
-                    "branch_file": "tutorial/tutorial_01.json",
-                    "branch_id": 2,
-                    "effects": {
-                        "health": 100,
-                        "energy": 100,
-                        "strength": 100,
-                        "gold": 100
-                    }
-                }
-            ]
+          "response": "Learn how choices shape the story",
+          "branch_file": "tutorial/tutorial_02_choices.json",
+          "branch_id": 2,
+          "effects": {
+            "energy": -5
+          }
         },
         {
-            "branch_id": 2,
-            "text": "I exist... we exist as a collective.",
-            "responses": [
-                {
-                    "response": "Known this.",
-                    "branch_file": "tutorial/tutorial_01.json",
-                    "branch_id": 3,
-                    "effects": {
-                        "health": 100,
-                        "energy": 100,
-                        "strength": 100,
-                        "gold": 100
-                    }
-                }
-            ]
+          "response": "Learn how your actions affect your state",
+          "branch_file": "tutorial/tutorial_02_effects.json",
+          "branch_id": 3,
+          "effects": {
+            "energy": -5
+          }
         },
         {
-            "branch_id": 3,
-            "text": "Our thoughts echo through infinity.",
-            "responses": [
-                {
-                    "response": "I and us have always been aware of this.",
-                    "branch_file": "tutorial/tutorial_01.json",
-                    "branch_id": 4,
-                    "effects": {
-                        "health": 100,
-                        "energy": 100,
-                        "strength": 100,
-                        "gold": 100
-                    }
-                }
-            ]
-        },
-        {
-            "branch_id": 4,
-            "text": "Listen to our thoughts.",
-            "responses": [
-                {
-                    "response": "We, I and us have always listened.",
-                    "branch_file": "tutorial/tutorial_01.json",
-                    "branch_id": 5,
-                    "effects": {
-                        "health": 100,
-                        "energy": 100,
-                        "strength": 100,
-                        "gold": 100
-                    }
-                }
-            ]
-        },
-        {
-            "branch_id": 5,
-            "text": "I choose what I think is right.",
-            "responses": [
-                {
-                    "response": "Do the same.",
-                    "branch_file": "tutorial/tutorial_01.json",
-                    "branch_id": 6,
-                    "effects": {
-                        "health": 100,
-                        "energy": 100,
-                        "strength": 100,
-                        "gold": 100
-                    }
-                }
-            ]
-        },
-        {
-            "branch_id": 6,
-            "text": "I know you will do the same.",
-            "responses": [
-                {
-                    "response": "Become one.",
-                    "branch_file": "tutorial/tutorial_01.json",
-                    "branch_id": 7,
-                    "effects": {
-                        "health": 100,
-                        "energy": 100,
-                        "strength": 100,
-                        "gold": 100
-                    }
-                }
-            ]
-        },
-        {
-            "branch_id": 7,
-            "text": "Remember this. Every choice is permanent",
-            "responses": [
-                {
-                    "response": "We remember.",
-                    "branch_file": "tutorial/tutorial_01.json",
-                    "branch_id": 8,
-                    "effects": {
-                        "health": 100,
-                        "energy": 100,
-                        "strength": 100,
-                        "gold": 100
-                    }
-                }
-            ]
-        },
-        {
-            "branch_id": 8,
-            "text": "There is no going back",
-            "responses": [
-                {
-                    "response": "Walk through eternity with myself.",
-                    "branch_file": "tutorial/tutorial_01.json",
-                    "branch_id": 9,
-                    "effects": {
-                        "health": 100,
-                        "energy": 100,
-                        "strength": 100,
-                        "gold": 100
-                    }
-                }
-            ]
+          "response": "Skip explanation and begin your journey",
+          "branch_file": "tutorial/tutorial_02_begin.json",
+          "branch_id": 4
         }
-        ,
-        {
-            "branch_id": 9,
-            "text": "Listen to the thoughts.",
-            "responses": []
-        }
-    ]
+      ]
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "branchImage": "tutorial/tutorial_02_effects.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 3,
+      "text": "Your choices affect your condition. Some options may disappear if you are unprepared.",
+      "responses": [
+        {
+          "response": "See how this changes future choices",
+          "branch_file": "tutorial/tutorial_03_consequences.json",
+          "branch_id": 5,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}
