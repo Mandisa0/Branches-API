@@ -73,9 +73,9 @@
         {
             "image": "",
             "title": "Continuance: Ascend",
-            "description": "Reality survived because you did. Now it must decide how much of you it needs.",
+            "description": "Reality survived because you did. Now it must decide how much of you it needs. [Continuance]",
             "file": "continuance/continuance_ascend_companion_01.json",
-            "requirements": "You replace the Anchors. Reality holds — while you exist. [Continuance]"
+            "requirements": "You replace the Anchors. Reality holds — while you exist."
         },
         {
             "image": "",
