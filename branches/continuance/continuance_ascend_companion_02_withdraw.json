@@ -1,0 +1,17 @@
+{
+  "branchImage": "continuance/continuance_ascend_companion_02_withdraw.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 3,
+      "text": "You recede. Reality stabilizes without guidance, imperfect but alive.",
+      "responses": [
+        {
+          "response": "Allow entropy to choose",
+          "branch_file": "continuance_ascend_companion_end_entropy.json",
+          "branch_id": 5
+        }
+      ]
+    }
+  ]
+}

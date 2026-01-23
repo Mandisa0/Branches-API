@@ -1,0 +1,22 @@
+{
+  "branchImage": "apology/apology_03_report.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 9,
+      "text": "Your report contradicts official narratives.",
+      "responses": [
+        {
+          "response": "Submit it anyway",
+          "branch_file": "apology/apology_end_whistle.json",
+          "branch_id": 21
+        },
+        {
+          "response": "Retract the report",
+          "branch_file": "apology/apology_end_recorded.json",
+          "branch_id": 20
+        }
+      ]
+    }
+  ]
+}

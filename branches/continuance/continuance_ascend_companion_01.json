@@ -1,0 +1,22 @@
+{
+  "branchImage": "continuance/continuance_ascend_companion_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "You did not replace the Anchors. You transcended them. Reality bends around your awareness.",
+      "responses": [
+        {
+          "response": "Rule as a living constant",
+          "branch_file": "continuance_ascend_companion_02_rule.json",
+          "branch_id": 2
+        },
+        {
+          "response": "Withdraw from conscious control",
+          "branch_file": "continuance_ascend_companion_02_withdraw.json",
+          "branch_id": 3
+        }
+      ]
+    }
+  ]
+}

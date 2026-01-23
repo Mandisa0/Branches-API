@@ -1,0 +1,11 @@
+{
+  "branchImage": "apology/apology_end_metric.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 22,
+      "text": "Apologies become performance metrics.",
+      "responses": []
+    }
+  ]
+}

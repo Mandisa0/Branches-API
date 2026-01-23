@@ -1,0 +1,17 @@
+{
+  "branchImage": "apology/apology_02_skip.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 5,
+      "text": "You falsely mark the apology as delivered.",
+      "responses": [
+        {
+          "response": "Continue your route",
+          "branch_file": "apology/apology_03_promotion.json",
+          "branch_id": 10
+        }
+      ]
+    }
+  ]
+}

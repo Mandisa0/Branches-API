@@ -1,0 +1,11 @@
+{
+  "branchImage": "apology/apology_end_recorded.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 20,
+      "text": "The apology is logged. Nothing changes.",
+      "responses": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "branchImage": "apology/apology_02_knock.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 3,
+      "text": "The resident opens the door and recognizes your badge.",
+      "responses": [
+        {
+          "response": "Begin the apology",
+          "branch_file": "apology/apology_03_deliver.json",
+          "branch_id": 6
+        },
+        {
+          "response": "Ask if they want to hear it",
+          "branch_file": "apology/apology_03_consent.json",
+          "branch_id": 8
+        }
+      ]
+    }
+  ]
+}

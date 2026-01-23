@@ -1,0 +1,25 @@
+{
+  "branchImage": "apology/apology_02_observe.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 4,
+      "text": "You notice lasting damage not recorded in the file.",
+      "responses": [
+        {
+          "response": "Include this in a report",
+          "branch_file": "apology/apology_03_report.json",
+          "branch_id": 9,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Ignore and proceed",
+          "branch_file": "apology/apology_03_deliver.json",
+          "branch_id": 6
+        }
+      ]
+    }
+  ]
+}

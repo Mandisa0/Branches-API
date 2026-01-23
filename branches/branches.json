@@ -62,6 +62,13 @@
             "description": "Recovery was declared complete. The paperwork disagrees with reality.",
             "file": "residuals/residuals_01.json",
             "requirements": null
+        },
+        {
+            "image": "",
+            "title": "Apology",
+            "description": "The system has already said it was sorry. You must decide what that means.",
+            "file": "apology/apology_01.json",
+            "requirements": null
         }
     ]
 }

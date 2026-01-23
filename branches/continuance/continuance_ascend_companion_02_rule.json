@@ -1,0 +1,17 @@
+{
+  "branchImage": "continuance/continuance_ascend_companion_02_rule.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 2,
+      "text": "Civilizations align themselves to your will. Order spreads. Freedom thins.",
+      "responses": [
+        {
+          "response": "Enforce absolute coherence",
+          "branch_file": "continuance_ascend_companion_end_order.json",
+          "branch_id": 4
+        }
+      ]
+    }
+  ]
+}

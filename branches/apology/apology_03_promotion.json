@@ -1,0 +1,17 @@
+{
+  "branchImage": "apology/apology_03_promotion.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 10,
+      "text": "Your efficiency is rewarded.",
+      "responses": [
+        {
+          "response": "Train new officers",
+          "branch_file": "apology/apology_end_metric.json",
+          "branch_id": 22
+        }
+      ]
+    }
+  ]
+}

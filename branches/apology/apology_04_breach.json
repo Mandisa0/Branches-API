@@ -1,0 +1,22 @@
+{
+  "branchImage": "apology/apology_04_breach.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 11,
+      "text": "You violate protocol.",
+      "responses": [
+        {
+          "response": "Accept removal",
+          "branch_file": "apology/apology_end_removed.json",
+          "branch_id": 23
+        },
+        {
+          "response": "Stand by your words",
+          "branch_file": "apology/apology_end_stay.json",
+          "branch_id": 24
+        }
+      ]
+    }
+  ]
+}

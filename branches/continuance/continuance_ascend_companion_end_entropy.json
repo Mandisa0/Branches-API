@@ -1,0 +1,11 @@
+{
+  "branchImage": "continuance/continuance_ascend_companion_end_entropy.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 5,
+      "text": "Life persists through chaos. You remain, unseen, unnecessary.",
+      "responses": []
+    }
+  ]
+}

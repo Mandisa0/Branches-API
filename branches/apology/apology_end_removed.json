@@ -1,0 +1,11 @@
+{
+  "branchImage": "apology/apology_end_removed.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 23,
+      "text": "You are quietly reassigned.",
+      "responses": []
+    }
+  ]
+}

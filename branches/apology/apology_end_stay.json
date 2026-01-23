@@ -1,0 +1,11 @@
+{
+  "branchImage": "apology/apology_end_stay.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 24,
+      "text": "You remain. The work changes you.",
+      "responses": []
+    }
+  ]
+}

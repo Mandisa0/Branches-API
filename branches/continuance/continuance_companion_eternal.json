@@ -1,0 +1,65 @@
+{
+  "branchImage": "continuance/continuance_companion_eternal.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "Time no longer advances for you. It moves around you. The Anchors hold, bound to the absence you became. The world stabilizes, unaware of the cost.",
+      "responses": [
+        {
+          "response": "Observe the passing centuries",
+          "branch_file": "continuance_companion_eternal.json",
+          "branch_id": 2
+        }
+      ]
+    },
+    {
+      "branch_id": 2,
+      "text": "Civilizations rise and fall. The crisis fades into myth, then metaphor, then omission. History edits itself clean.",
+      "responses": [
+        {
+          "response": "Preserve absolute stability",
+          "branch_file": "continuance_companion_eternal.json",
+          "branch_id": 3
+        },
+        {
+          "response": "Permit controlled decay",
+          "branch_file": "continuance_companion_eternal.json",
+          "branch_id": 4
+        }
+      ]
+    },
+    {
+      "branch_id": 3,
+      "text": "Perfect stability drains urgency. Innovation slows. Conflict becomes ritual. The world survives, unchanged.",
+      "responses": [
+        {
+          "response": "Accept stagnation",
+          "branch_file": "continuance_companion_eternal.json",
+          "branch_id": 5
+        }
+      ]
+    },
+    {
+      "branch_id": 4,
+      "text": "You allow small failures. Death regains weight. Empires fracture. The Anchors strain but endure.",
+      "responses": [
+        {
+          "response": "Moderate instability",
+          "branch_file": "continuance_companion_eternal.json",
+          "branch_id": 6
+        }
+      ]
+    },
+    {
+      "branch_id": 5,
+      "text": "Eternity succeeds. Nothing ends. Nothing truly begins. You remain \u2014 unnoticed, unremembered.",
+      "responses": []
+    },
+    {
+      "branch_id": 6,
+      "text": "The world adapts to danger again. It never knows your name, but it relearns choice.",
+      "responses": []
+    }
+  ]
+}

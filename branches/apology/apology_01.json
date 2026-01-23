@@ -1,0 +1,41 @@
+{
+  "branchImage": "apology/apology_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "You are a Reconciliation Officer. Your duty is to deliver official apologies for irreversible harm.",
+      "responses": [
+        {
+          "response": "Review the case file",
+          "branch_file": "apology/apology_02_file.json",
+          "branch_id": 2,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Knock on the door",
+          "branch_file": "apology/apology_02_knock.json",
+          "branch_id": 3
+        },
+        {
+          "response": "Observe the surroundings",
+          "branch_file": "apology/apology_02_observe.json",
+          "branch_id": 4,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Mark address complete",
+          "branch_file": "apology/apology_02_skip.json",
+          "branch_id": 5,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

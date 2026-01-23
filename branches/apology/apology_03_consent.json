@@ -1,0 +1,25 @@
+{
+  "branchImage": "apology/apology_03_consent.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 8,
+      "text": "They ask what the apology truly means.",
+      "responses": [
+        {
+          "response": "Explain the limits",
+          "branch_file": "apology/apology_03_deliver.json",
+          "branch_id": 6
+        },
+        {
+          "response": "Lie about reparations",
+          "branch_file": "apology/apology_04_breach.json",
+          "branch_id": 11,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}
