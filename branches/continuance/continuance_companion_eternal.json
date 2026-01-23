@@ -8,7 +8,7 @@
       "responses": [
         {
           "response": "Observe the passing centuries",
-          "branch_file": "continuance_companion_eternal.json",
+          "branch_file": "continuance/continuance_companion_eternal.json",
           "branch_id": 2
         }
       ]
@@ -19,12 +19,12 @@
       "responses": [
         {
           "response": "Preserve absolute stability",
-          "branch_file": "continuance_companion_eternal.json",
+          "branch_file": "continuance/continuance_companion_eternal.json",
           "branch_id": 3
         },
         {
           "response": "Permit controlled decay",
-          "branch_file": "continuance_companion_eternal.json",
+          "branch_file": "continuance/continuance_companion_eternal.json",
           "branch_id": 4
         }
       ]
@@ -35,7 +35,7 @@
       "responses": [
         {
           "response": "Accept stagnation",
-          "branch_file": "continuance_companion_eternal.json",
+          "branch_file": "continuance/continuance_companion_eternal.json",
           "branch_id": 5
         }
       ]
@@ -46,7 +46,7 @@
       "responses": [
         {
           "response": "Moderate instability",
-          "branch_file": "continuance_companion_eternal.json",
+          "branch_file": "continuance/continuance_companion_eternal.json",
           "branch_id": 6
         }
       ]

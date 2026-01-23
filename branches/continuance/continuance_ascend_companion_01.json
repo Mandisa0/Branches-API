@@ -8,12 +8,12 @@
       "responses": [
         {
           "response": "Rule as a living constant",
-          "branch_file": "continuance_ascend_companion_02_rule.json",
+          "branch_file": "continuance/continuance_ascend_companion_02_rule.json",
           "branch_id": 2
         },
         {
           "response": "Withdraw from conscious control",
-          "branch_file": "continuance_ascend_companion_02_withdraw.json",
+          "branch_file": "continuance/continuance_ascend_companion_02_withdraw.json",
           "branch_id": 3
         }
       ]

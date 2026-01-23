@@ -8,7 +8,7 @@
       "responses": [
         {
           "response": "Enforce absolute coherence",
-          "branch_file": "continuance_ascend_companion_end_order.json",
+          "branch_file": "continuance/continuance_ascend_companion_end_order.json",
           "branch_id": 4
         }
       ]

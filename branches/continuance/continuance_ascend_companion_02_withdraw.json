@@ -8,7 +8,7 @@
       "responses": [
         {
           "response": "Allow entropy to choose",
-          "branch_file": "continuance_ascend_companion_end_entropy.json",
+          "branch_file": "continuance/continuance_ascend_companion_end_entropy.json",
           "branch_id": 5
         }
       ]
