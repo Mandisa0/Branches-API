@@ -69,6 +69,20 @@
             "description": "The system has already said it was sorry. You must decide what that means.",
             "file": "apology/apology_01.json",
             "requirements": null
+        },
+        {
+            "image": "",
+            "title": "Continuance: Ascend",
+            "description": "Reality survived because you did. Now it must decide how much of you it needs.",
+            "file": "continuance/continuance_ascend_companion_01.json",
+            "requirements": "You replace the Anchors. Reality holds — while you exist. [Continuance]"
+        },
+        {
+            "image": "",
+            "title": "Continuance: Eternal",
+            "description": "The world was preserved at a cost. What remains is the weight of forever. [Continuance]",
+            "file": "continuance/continuance_companion_eternal.json",
+            "requirements": "The world endures forever. You do not."
         }
     ]
 }
