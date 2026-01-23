@@ -1,0 +1,25 @@
+{
+  "branchImage": "residuals/residuals_02_delay.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 5,
+      "text": "Oversight flags your delay. Your status is reviewed.",
+      "responses": [
+        {
+          "response": "Comply immediately",
+          "branch_file": "residuals/residuals_02_closure.json",
+          "branch_id": 4
+        },
+        {
+          "response": "Ignore oversight",
+          "branch_file": "residuals/residuals_03_ignore.json",
+          "branch_id": 11,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

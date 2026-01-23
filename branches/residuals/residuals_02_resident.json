@@ -1,0 +1,25 @@
+{
+  "branchImage": "residuals/residuals_02_resident.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 3,
+      "text": "The resident knows your name. They say an auditor promised to return.",
+      "responses": [
+        {
+          "response": "Ask what was promised",
+          "branch_file": "residuals/residuals_03_promise.json",
+          "branch_id": 8,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "End the conversation",
+          "branch_file": "residuals/residuals_03_endtalk.json",
+          "branch_id": 9
+        }
+      ]
+    }
+  ]
+}

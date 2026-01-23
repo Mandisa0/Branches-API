@@ -1,0 +1,17 @@
+{
+  "branchImage": "residuals/residuals_03_ignore.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 11,
+      "text": "You remain in the zone past authorization.",
+      "responses": [
+        {
+          "response": "Disappear into the zone",
+          "branch_file": "residuals/residuals_end_residual.json",
+          "branch_id": 24
+        }
+      ]
+    }
+  ]
+}

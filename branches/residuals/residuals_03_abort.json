@@ -1,0 +1,25 @@
+{
+  "branchImage": "residuals/residuals_03_abort.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 10,
+      "text": "The system logs you as a liability.",
+      "responses": [
+        {
+          "response": "Continue anyway",
+          "branch_file": "residuals/residuals_04_auditor.json",
+          "branch_id": 12,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Stand down",
+          "branch_file": "residuals/residuals_end_erasure.json",
+          "branch_id": 23
+        }
+      ]
+    }
+  ]
+}

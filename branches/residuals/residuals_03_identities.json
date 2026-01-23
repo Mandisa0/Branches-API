@@ -1,0 +1,25 @@
+{
+  "branchImage": "residuals/residuals_03_identities.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 6,
+      "text": "The erased identities include an auditor marked deceased.",
+      "responses": [
+        {
+          "response": "Search for the missing auditor",
+          "branch_file": "residuals/residuals_04_auditor.json",
+          "branch_id": 12,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Close the file",
+          "branch_file": "residuals/residuals_03_accept.json",
+          "branch_id": 7
+        }
+      ]
+    }
+  ]
+}

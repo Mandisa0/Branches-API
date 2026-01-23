@@ -1,0 +1,11 @@
+{
+  "branchImage": "residuals/residuals_end_erasure.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 23,
+      "text": "You are removed to stabilize the system.",
+      "responses": []
+    }
+  ]
+}

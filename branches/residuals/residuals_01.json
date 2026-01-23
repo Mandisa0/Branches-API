@@ -1,0 +1,44 @@
+{
+  "branchImage": "residuals/residuals_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "Your assignment terminal activates as the transport slows. The zone was declared resolved years ago. Someone is still here.",
+      "responses": [
+        {
+          "response": "Review the case file",
+          "branch_file": "residuals/residuals_02_file.json",
+          "branch_id": 2,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Speak to the resident",
+          "branch_file": "residuals/residuals_02_resident.json",
+          "branch_id": 3,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Initiate automated closure",
+          "branch_file": "residuals/residuals_02_closure.json",
+          "branch_id": 4,
+          "effects": {
+            "strength": 5
+          }
+        },
+        {
+          "response": "Delay the assignment",
+          "branch_file": "residuals/residuals_02_delay.json",
+          "branch_id": 5,
+          "effects": {
+            "health": -5
+          }
+        }
+      ]
+    }
+  ]
+}

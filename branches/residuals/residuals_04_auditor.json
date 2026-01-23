@@ -1,0 +1,25 @@
+{
+  "branchImage": "residuals/residuals_04_auditor.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 12,
+      "text": "You find evidence the auditor chose to stay.",
+      "responses": [
+        {
+          "response": "Follow their example",
+          "branch_file": "residuals/residuals_end_residual.json",
+          "branch_id": 24
+        },
+        {
+          "response": "Expose the pattern",
+          "branch_file": "residuals/residuals_end_expose.json",
+          "branch_id": 25,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

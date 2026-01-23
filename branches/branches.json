@@ -55,6 +55,13 @@
             "description": "The artifact has chosen someone again. This time, it chose you.",
             "file": "key/key_01.json",
             "requirements": null
+        },
+        {
+            "image": "",
+            "title": "Residuals",
+            "description": "Recovery was declared complete. The paperwork disagrees with reality.",
+            "file": "residuals/residuals_01.json",
+            "requirements": null
         }
     ]
 }

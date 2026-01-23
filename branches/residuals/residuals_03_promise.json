@@ -1,0 +1,25 @@
+{
+  "branchImage": "residuals/residuals_03_promise.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 8,
+      "text": "They were promised relocation that never came.",
+      "responses": [
+        {
+          "response": "Shelter the resident",
+          "branch_file": "residuals/residuals_end_containment.json",
+          "branch_id": 22,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Report them",
+          "branch_file": "residuals/residuals_end_clean.json",
+          "branch_id": 20
+        }
+      ]
+    }
+  ]
+}

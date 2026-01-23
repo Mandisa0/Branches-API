@@ -1,0 +1,17 @@
+{
+  "branchImage": "residuals/residuals_03_accept.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 7,
+      "text": "You finalize the record. The discrepancy becomes permanent.",
+      "responses": [
+        {
+          "response": "Submit report",
+          "branch_file": "residuals/residuals_end_false.json",
+          "branch_id": 21
+        }
+      ]
+    }
+  ]
+}

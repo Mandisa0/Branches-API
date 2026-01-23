@@ -1,0 +1,11 @@
+{
+  "branchImage": "residuals/residuals_end_residual.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 24,
+      "text": "You remain behind. The city moves on.",
+      "responses": []
+    }
+  ]
+}

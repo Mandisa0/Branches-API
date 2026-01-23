@@ -1,0 +1,11 @@
+{
+  "branchImage": "residuals/residuals_end_clean.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 20,
+      "text": "The zone is erased. Metrics improve.",
+      "responses": []
+    }
+  ]
+}

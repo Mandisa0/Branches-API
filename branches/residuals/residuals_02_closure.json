@@ -1,0 +1,28 @@
+{
+  "branchImage": "residuals/residuals_02_closure.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 4,
+      "text": "Systems activate. The zone resists. You are asked to confirm.",
+      "responses": [
+        {
+          "response": "Confirm closure",
+          "branch_file": "residuals/residuals_end_clean.json",
+          "branch_id": 20,
+          "effects": {
+            "health": -10
+          }
+        },
+        {
+          "response": "Abort mid-process",
+          "branch_file": "residuals/residuals_03_abort.json",
+          "branch_id": 10,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}
