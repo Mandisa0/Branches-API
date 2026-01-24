@@ -1,0 +1,11 @@
+{
+  "branchImage": "ashfall/ashfall_03_control.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 9,
+      "text": "You become indispensable. The Index bends around you.",
+      "responses": []
+    }
+  ]
+}

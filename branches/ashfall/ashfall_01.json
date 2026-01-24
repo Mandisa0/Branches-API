@@ -1,0 +1,44 @@
+{
+  "branchImage": "ashfall/ashfall_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "The Ashfall Index refreshes twice tonight. Your name appears with a score of 0.00. Deprioritized.",
+      "responses": [
+        {
+          "response": "Trust the Index",
+          "branch_file": "ashfall/ashfall_02_accept.json",
+          "branch_id": 2,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Audit the prediction",
+          "branch_file": "ashfall/ashfall_02_audit.json",
+          "branch_id": 3,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Manipulate the inputs",
+          "branch_file": "ashfall/ashfall_02_manipulate.json",
+          "branch_id": 4,
+          "effects": {
+            "strength": 5
+          }
+        },
+        {
+          "response": "Leak the result",
+          "branch_file": "ashfall/ashfall_02_leak.json",
+          "branch_id": 5,
+          "effects": {
+            "energy": -5
+          }
+        }
+      ]
+    }
+  ]
+}

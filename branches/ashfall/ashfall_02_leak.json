@@ -1,0 +1,20 @@
+{
+  "branchImage": "ashfall/ashfall_02_leak.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 5,
+      "text": "The leak spreads. Panic doesn\u2019t follow. Acceptance does.",
+      "responses": [
+        {
+          "response": "Push the truth further",
+          "branch_file": "ashfall/ashfall_end_chaos.json",
+          "branch_id": 10,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

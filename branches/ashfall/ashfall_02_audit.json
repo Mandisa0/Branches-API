@@ -1,0 +1,28 @@
+{
+  "branchImage": "ashfall/ashfall_02_audit.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 3,
+      "text": "The audit reveals recursive bias. The system predicts decline, then enforces it.",
+      "responses": [
+        {
+          "response": "Document the flaw",
+          "branch_file": "ashfall/ashfall_03_document.json",
+          "branch_id": 7,
+          "effects": {
+            "energy": -5
+          }
+        },
+        {
+          "response": "Exploit the loophole",
+          "branch_file": "ashfall/ashfall_03_exploit.json",
+          "branch_id": 8,
+          "effects": {
+            "strength": 5
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "branchImage": "ashfall/ashfall_02_accept.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 2,
+      "text": "You stop checking. Services fade quietly. Friends stop calling. The Index never updates your score again.",
+      "responses": [
+        {
+          "response": "Adapt to exclusion",
+          "branch_file": "ashfall/ashfall_03_adapt.json",
+          "branch_id": 6,
+          "effects": {
+            "health": -5
+          }
+        }
+      ]
+    }
+  ]
+}

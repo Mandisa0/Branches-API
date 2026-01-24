@@ -1,0 +1,11 @@
+{
+  "branchImage": "ashfall/ashfall_end_chaos.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 10,
+      "text": "The Index collapses. People don\u2019t know how to choose anymore.",
+      "responses": []
+    }
+  ]
+}

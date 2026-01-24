@@ -97,6 +97,13 @@
             "description": "You chose stability over truth. The crown still screams — just quieter now. [Oathbound - You destroyed the archived records and continued enforcing loyalty]",
             "file": "oathbound/oathbound_06_pressure.json",
             "requirements": "The prince rules. The curse sleeps, not gone. Peace holds — barely."
+        },
+        {
+            "image": "",
+            "title": "Ashfall",
+            "description": "Your future was calculated before you noticed the system existed. Tonight, it decides you are no longer necessary.",
+            "file": "ashfall/ashfall_01.json",
+            "requirements": null
         }
     ]
 }

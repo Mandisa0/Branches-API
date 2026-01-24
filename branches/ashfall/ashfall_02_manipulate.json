@@ -1,0 +1,20 @@
+{
+  "branchImage": "ashfall/ashfall_02_manipulate.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 4,
+      "text": "You seed false signals into the Index. Your score rises unnaturally fast.",
+      "responses": [
+        {
+          "response": "Maintain the illusion",
+          "branch_file": "ashfall/ashfall_03_control.json",
+          "branch_id": 9,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

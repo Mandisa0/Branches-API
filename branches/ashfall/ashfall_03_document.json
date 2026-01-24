@@ -1,0 +1,11 @@
+{
+  "branchImage": "ashfall/ashfall_03_document.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 7,
+      "text": "Your report is archived. It changes nothing. You are thanked.",
+      "responses": []
+    }
+  ]
+}
