@@ -1,0 +1,11 @@
+{
+  "branchImage": "oathbound/oathbound_end_regret.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 26,
+      "text": "You live quietly, knowing the crown still screams\u2014and you chose silence.",
+      "responses": []
+    }
+  ]
+}

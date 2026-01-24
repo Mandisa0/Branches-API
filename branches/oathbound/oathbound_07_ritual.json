@@ -1,0 +1,20 @@
+{
+  "branchImage": "oathbound/oathbound_07_ritual.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 22,
+      "text": "Ancient rites promise to silence the crown forever\u2014at the cost of legitimacy.",
+      "responses": [
+        {
+          "response": "Perform the ritual",
+          "branch_file": "oathbound/oathbound_end_shattered.json",
+          "branch_id": 25,
+          "effects": {
+            "energy": -10
+          }
+        }
+      ]
+    }
+  ]
+}

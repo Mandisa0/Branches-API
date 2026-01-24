@@ -1,0 +1,11 @@
+{
+  "branchImage": "oathbound/oathbound_end_iron.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 24,
+      "text": "The realm endures under silent rule. No screams remain\u2014only obedience.",
+      "responses": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "branchImage": "oathbound/oathbound_07_withdraw.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 23,
+      "text": "Without you, the court fractures. The prince survives\u2014but barely.",
+      "responses": [
+        {
+          "response": "Live with the consequences",
+          "branch_file": "oathbound/oathbound_end_regret.json",
+          "branch_id": 26,
+          "effects": {}
+        }
+      ]
+    }
+  ]
+}

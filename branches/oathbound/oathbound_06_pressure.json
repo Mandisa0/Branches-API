@@ -1,0 +1,36 @@
+{
+  "branchImage": "oathbound/oathbound_06_pressure.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 20,
+      "text": "Years pass. The prince rules steadily, but the crown's scream leaks into policy, law, and quiet executions.",
+      "responses": [
+        {
+          "response": "Suppress dissent harder",
+          "branch_file": "oathbound/oathbound_07_iron.json",
+          "branch_id": 21,
+          "effects": {
+            "strength": 5
+          }
+        },
+        {
+          "response": "Seek a permanent solution to the crown",
+          "branch_file": "oathbound/oathbound_07_ritual.json",
+          "branch_id": 22,
+          "effects": {
+            "energy": -10
+          }
+        },
+        {
+          "response": "Step away from power",
+          "branch_file": "oathbound/oathbound_07_withdraw.json",
+          "branch_id": 23,
+          "effects": {
+            "health": -5
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -90,6 +90,13 @@
             "description": "The world was allowed to end. What followed was not absence, but the quiet work of completion. [Continuance - You shut down the Anchors]",
             "file": "continuance/continuance_mercy_01.json",
             "requirements": "The Anchors fall. The world finally ends — gently."
+        },
+        {
+            "image": "",
+            "title": "Oathbound: Loyalty",
+            "description": "You chose stability over truth. The crown still screams — just quieter now. [Oathbound - You destroyed the archived records and continued enforcing loyalty]",
+            "file": "oathbound/oathbound_06_pressure.json",
+            "requirements": "The prince rules. The curse sleeps, not gone. Peace holds — barely."
         }
     ]
 }

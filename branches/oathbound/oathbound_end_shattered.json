@@ -1,0 +1,11 @@
+{
+  "branchImage": "oathbound/oathbound_end_shattered.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 25,
+      "text": "The crown dies. So does the myth of rightful rule. The realm fractures into truth.",
+      "responses": []
+    }
+  ]
+}
