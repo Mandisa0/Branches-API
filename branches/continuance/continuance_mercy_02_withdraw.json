@@ -1,0 +1,17 @@
+{
+  "branchImage": "continuance/continuance_mercy_02_withdraw.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 3,
+      "text": "You turn your attention away. Memory loosens. Completion no longer waits to be seen.",
+      "responses": [
+        {
+          "response": "Let the ending complete itself",
+          "branch_file": "continuance/continuance_mercy_end_release.json",
+          "branch_id": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "branchImage": "continuance/continuance_mercy_03_remain.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 4,
+      "text": "You stay. Not to guide, but to witness. When the last fragment releases, so do you.",
+      "responses": [
+        {
+          "response": "Allow yourself to end",
+          "branch_file": "continuance/continuance_mercy_end_witness.json",
+          "branch_id": 6
+        }
+      ]
+    }
+  ]
+}

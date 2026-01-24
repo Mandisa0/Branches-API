@@ -1,0 +1,11 @@
+{
+  "branchImage": "continuance/continuance_mercy_end_release.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 5,
+      "text": "Without observation, the last fragments dissolve. Nothing follows.",
+      "responses": []
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "branchImage": "continuance/continuance_mercy_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "The Anchors fall. The world does not collapse \u2014 it loosens. Mountains soften. Time hesitates. Mercy was permission to stop.",
+      "responses": [
+        {
+          "response": "Observe the fading world",
+          "branch_file": "continuance/continuance_mercy_02_observe.json",
+          "branch_id": 2
+        },
+        {
+          "response": "Withdraw from the ending",
+          "branch_file": "continuance/continuance_mercy_02_withdraw.json",
+          "branch_id": 3
+        }
+      ]
+    }
+  ]
+}

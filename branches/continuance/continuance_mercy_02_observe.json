@@ -1,0 +1,17 @@
+{
+  "branchImage": "continuance/continuance_mercy_02_observe.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 2,
+      "text": "Moments surface by meaning alone. Cities linger out of habit. Some fragments hesitate, unsure if they may end alone.",
+      "responses": [
+        {
+          "response": "Remain until nothing is unfinished",
+          "branch_file": "continuance/continuance_mercy_03_remain.json",
+          "branch_id": 4
+        }
+      ]
+    }
+  ]
+}

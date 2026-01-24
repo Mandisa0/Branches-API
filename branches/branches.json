@@ -83,6 +83,13 @@
             "description": "The world was preserved at a cost. What remains is the weight of forever. [Continuance - You sacrificed yourself to sustain the Anchors]",
             "file": "continuance/continuance_companion_eternal.json",
             "requirements": "The world endures forever. You do not."
+        },
+        {
+            "image": "",
+            "title": "Continuance: Mercy",
+            "description": "The world was allowed to end. What followed was not absence, but the quiet work of completion. [Continuance - Shut down the Anchors]",
+            "file": "continuance/continuance_mercy_01.json",
+            "requirements": "The Anchors fall. The world finally ends — gently."
         }
     ]
 }
