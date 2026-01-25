@@ -104,6 +104,13 @@
             "description": "Your future was calculated before you noticed the system existed. Tonight, it decides you are no longer necessary.",
             "file": "ashfall/ashfall_01.json",
             "requirements": null
+        },
+        {
+            "image": "singular/singular_01.png",
+            "title": "Singular",
+            "description": "You were never meant to decide alone. One place. One moment. Every choice folds back onto itself.",
+            "file": "singular/singular_01.json",
+            "requirements": null
         }
     ]
 }

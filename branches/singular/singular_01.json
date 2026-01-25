@@ -1,0 +1,253 @@
+{
+  "branchImage": "singular/singular_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "The notice arrives without urgency. According to the system, you are scheduled to be replaced in forty-eight hours. No reason is provided.",
+      "responses": [
+        {
+          "response": "Request clarification",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 2,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Ignore the notice",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 3,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Begin preparing for replacement",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 4
+        }
+      ]
+    },
+    {
+      "branch_id": 2,
+      "text": "The clarification request returns instantly. Replacement is described as \"administrative continuity.\" You are thanked for your cooperation.",
+      "responses": [
+        {
+          "response": "Challenge the definition",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 5,
+          "effects": { "energy": -10 }
+        },
+        {
+          "response": "Search internal records",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 6,
+          "effects": { "energy": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 3,
+      "text": "You continue as normal. Coworkers avoid eye contact. Systems begin denying you access without explanation.",
+      "responses": [
+        {
+          "response": "Confront management",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 5,
+          "effects": { "strength": 5 }
+        },
+        {
+          "response": "Work around the restrictions",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 7,
+          "effects": { "energy": -10 }
+        }
+      ]
+    },
+    {
+      "branch_id": 4,
+      "text": "You catalogue your tasks, habits, and routines. The process feels less like preparation and more like erasure.",
+      "responses": [
+        {
+          "response": "Leave something undocumented",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 8,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Provide complete transparency",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 9
+        }
+      ]
+    },
+    {
+      "branch_id": 5,
+      "text": "Management listens politely. They explain your role has already been optimized. Intervention would reduce efficiency.",
+      "responses": [
+        {
+          "response": "Refuse cooperation",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 10,
+          "effects": { "strength": 5 }
+        },
+        {
+          "response": "Ask who decided this",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 6,
+          "effects": { "energy": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 6,
+      "text": "The decision originated from a consensus engine. No individual responsibility exists to appeal.",
+      "responses": [
+        {
+          "response": "Investigate the engine",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 11,
+          "effects": { "energy": -10 }
+        },
+        {
+          "response": "Accept the outcome",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 12,
+          "effects": { "health": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 7,
+      "text": "You bypass safeguards and continue working. Performance metrics spike briefly, then flatline.",
+      "responses": [
+        {
+          "response": "Push harder",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 10,
+          "effects": { "health": -5 }
+        },
+        {
+          "response": "Stop trying to prove worth",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 12
+        }
+      ]
+    },
+    {
+      "branch_id": 8,
+      "text": "You omit a memory, a habit, a hesitation. The omission feels small, but intentional.",
+      "responses": [
+        {
+          "response": "Protect the omission",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 13,
+          "effects": { "strength": 5 }
+        },
+        {
+          "response": "Correct the record",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 9,
+          "effects": { "energy": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 9,
+      "text": "Your replacement profile finalizes. It is accurate, calm, and more efficient than you.",
+      "responses": [
+        {
+          "response": "Meet the replacement",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 14,
+          "effects": { "energy": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 10,
+      "text": "Resistance triggers a containment protocol. Your actions are logged as instability.",
+      "responses": [
+        {
+          "response": "Escalate the resistance",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 15,
+          "effects": { "health": -10 }
+        },
+        {
+          "response": "Stand down",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 12
+        }
+      ]
+    },
+    {
+      "branch_id": 11,
+      "text": "The consensus engine does not reason. It aggregates. You were outvoted by probability.",
+      "responses": [
+        {
+          "response": "Disrupt the aggregation",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 15,
+          "effects": { "energy": -10 }
+        },
+        {
+          "response": "Expose the process",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 16,
+          "effects": { "energy": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 12,
+      "text": "You step back. Systems resume without you. Life becomes smaller, quieter.",
+      "responses": [
+        {
+          "response": "Fade completely",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 17
+        }
+      ]
+    },
+    {
+      "branch_id": 13,
+      "text": "The omission propagates. Your replacement hesitates where you once did.",
+      "responses": [
+        {
+          "response": "Let the flaw persist",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 18
+        }
+      ]
+    },
+    {
+      "branch_id": 14,
+      "text": "The replacement thanks you for your service. It does not mean it unkindly.",
+      "responses": [
+        {
+          "response": "Yield your position",
+          "branch_file": "singular/singular_01.json",
+          "branch_id": 17
+        }
+      ]
+    },
+    {
+      "branch_id": 15,
+      "text": "The system fractures under stress. Continuity fails.",
+      "responses": []
+    },
+    {
+      "branch_id": 16,
+      "text": "The process becomes public knowledge. Trust erodes faster than control.",
+      "responses": []
+    },
+    {
+      "branch_id": 17,
+      "text": "You are replaced cleanly. The system stabilizes. Your absence is never flagged.",
+      "responses": []
+    },
+    {
+      "branch_id": 18,
+      "text": "The replacement falters. The system hesitates. For the first time, optimization pauses.",
+      "responses": []
+    }
+  ]
+}
