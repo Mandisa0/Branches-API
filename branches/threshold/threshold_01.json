@@ -1,0 +1,222 @@
+{
+  "branchImage": "threshold/threshold_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "The elevator stops between floors. The display goes blank. A calm voice announces that an audit has begun, and that your cooperation is appreciated.",
+      "responses": [
+        {
+          "response": "Ask what is being audited",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 2,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Remain silent and observe",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 3
+        },
+        {
+          "response": "Attempt to force the doors open",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 4,
+          "effects": { "strength": 5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 2,
+      "text": "The voice explains that your decisions over the past several years have been flagged as influential beyond acceptable margins.",
+      "responses": [
+        {
+          "response": "Demand to see the data",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 5,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Ask who authorized the audit",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 6
+        }
+      ]
+    },
+    {
+      "branch_id": 3,
+      "text": "In the silence, you notice the elevator is not suspended by cables. It is held in place by something unseen.",
+      "responses": [
+        {
+          "response": "Acknowledge the voice",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 2
+        },
+        {
+          "response": "Test the elevator controls",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 7,
+          "effects": { "energy": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 4,
+      "text": "You pry the doors open enough to see darkness where the hallway should be. The building does not exist outside the elevator.",
+      "responses": [
+        {
+          "response": "Step into the darkness",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 8,
+          "effects": { "health": -5 }
+        },
+        {
+          "response": "Retreat and comply",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 2
+        }
+      ]
+    },
+    {
+      "branch_id": 5,
+      "text": "Data floods the walls: conversations you forgot, choices you dismissed as minor, people you never knew were watching.",
+      "responses": [
+        {
+          "response": "Accept responsibility",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 9,
+          "effects": { "health": -5 }
+        },
+        {
+          "response": "Reject the conclusions",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 10,
+          "effects": { "strength": 5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 6,
+      "text": "Authorization traces back to a predictive model seeded with your earliest recorded behavior.",
+      "responses": [
+        {
+          "response": "Question the model’s accuracy",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 5
+        },
+        {
+          "response": "Ask what happens next",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 11
+        }
+      ]
+    },
+    {
+      "branch_id": 7,
+      "text": "The buttons respond, but not as labeled. Floors you do not recognize light briefly, then go dark.",
+      "responses": [
+        {
+          "response": "Select an unknown floor",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 8
+        },
+        {
+          "response": "Stop interacting",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 11
+        }
+      ]
+    },
+    {
+      "branch_id": 8,
+      "text": "You leave the elevator. Gravity returns slowly. The voice thanks you for demonstrating unpredictability.",
+      "responses": [
+        {
+          "response": "Ask why that matters",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 12
+        }
+      ]
+    },
+    {
+      "branch_id": 9,
+      "text": "Responsibility is logged. The system recalibrates around your willingness to bear weight.",
+      "responses": [
+        {
+          "response": "Accept reassignment",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 13
+        }
+      ]
+    },
+    {
+      "branch_id": 10,
+      "text": "Rejection is noted. Your profile becomes volatile. Containment measures prepare.",
+      "responses": [
+        {
+          "response": "Resist containment",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 14,
+          "effects": { "health": -10 }
+        },
+        {
+          "response": "Stand down",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 15
+        }
+      ]
+    },
+    {
+      "branch_id": 11,
+      "text": "The voice explains that audits only end when stability is restored.",
+      "responses": [
+        {
+          "response": "Ask whose stability",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 12
+        },
+        {
+          "response": "Offer cooperation",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 9
+        }
+      ]
+    },
+    {
+      "branch_id": 12,
+      "text": "It admits the system is not stable. It has been compensating for you.",
+      "responses": [
+        {
+          "response": "Agree to replace part of the system",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 16,
+          "effects": { "health": -15 }
+        },
+        {
+          "response": "Refuse the role",
+          "branch_file": "threshold/threshold_01.json",
+          "branch_id": 15
+        }
+      ]
+    },
+    {
+      "branch_id": 13,
+      "text": "You are reassigned quietly. The world feels smoother. Less reactive.",
+      "responses": []
+    },
+    {
+      "branch_id": 14,
+      "text": "Containment fails. The building flickers. The audit ends abruptly.",
+      "responses": []
+    },
+    {
+      "branch_id": 15,
+      "text": "You are released. The elevator resumes its descent. No one mentions the delay.",
+      "responses": []
+    },
+    {
+      "branch_id": 16,
+      "text": "You integrate. Decisions propagate through you now. The elevator never opens again.",
+      "responses": []
+    }
+  ]
+}
