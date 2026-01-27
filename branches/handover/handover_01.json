@@ -1,0 +1,219 @@
+{
+  "branchImage": "handover/handover_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "Your replacement arrives early. They sit across from you, reviewing notes you do not remember writing. The meeting is labeled a handover.",
+      "responses": [
+        {
+          "response": "Ask who requested the handover",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 2,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Begin explaining your work",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 3
+        },
+        {
+          "response": "Refuse to participate",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 4,
+          "effects": { "strength": 5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 2,
+      "text": "They explain the request came from accumulated inefficiencies. No single error. Just trend lines.",
+      "responses": [
+        {
+          "response": "Demand specifics",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 5,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Ask how long this has been planned",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 6
+        }
+      ]
+    },
+    {
+      "branch_id": 3,
+      "text": "They nod and take notes. Occasionally, they correct you with greater accuracy than you expect.",
+      "responses": [
+        {
+          "response": "Question their familiarity",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 6,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Continue anyway",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 7
+        }
+      ]
+    },
+    {
+      "branch_id": 4,
+      "text": "Refusal is logged calmly. The meeting continues without your participation.",
+      "responses": [
+        {
+          "response": "Leave the room",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 8,
+          "effects": { "health": -5 }
+        },
+        {
+          "response": "Remain and observe",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 7
+        }
+      ]
+    },
+    {
+      "branch_id": 5,
+      "text": "They show you projections. Futures where you stay, and futures where you are replaced. The latter perform better.",
+      "responses": [
+        {
+          "response": "Challenge the assumptions",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 9,
+          "effects": { "strength": 5 }
+        },
+        {
+          "response": "Accept the data",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 10,
+          "effects": { "health": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 6,
+      "text": "Planning began the moment your performance stabilized. Improvement ceased. That was enough.",
+      "responses": [
+        {
+          "response": "Argue that stability has value",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 9,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Ask what happens to you",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 11
+        }
+      ]
+    },
+    {
+      "branch_id": 7,
+      "text": "You notice they hesitate when discussing edge cases. Not often. But enough.",
+      "responses": [
+        {
+          "response": "Press on the hesitation",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 12,
+          "effects": { "strength": 5 }
+        },
+        {
+          "response": "Ignore it",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 10
+        }
+      ]
+    },
+    {
+      "branch_id": 8,
+      "text": "Security redirects you gently. Your access expires in stages.",
+      "responses": [
+        {
+          "response": "Force reentry",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 13,
+          "effects": { "health": -10 }
+        },
+        {
+          "response": "Leave quietly",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 14
+        }
+      ]
+    },
+    {
+      "branch_id": 9,
+      "text": "They admit the model struggles to quantify judgment. It compensates by removing it.",
+      "responses": [
+        {
+          "response": "Offer yourself as oversight",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 15,
+          "effects": { "health": -10 }
+        },
+        {
+          "response": "Expose the limitation",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 16,
+          "effects": { "energy": -10 }
+        }
+      ]
+    },
+    {
+      "branch_id": 10,
+      "text": "The meeting ends. The handover completes smoothly.",
+      "responses": []
+    },
+    {
+      "branch_id": 11,
+      "text": "You are told your future is outside the system’s scope.",
+      "responses": [
+        {
+          "response": "Accept obscurity",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 14
+        }
+      ]
+    },
+    {
+      "branch_id": 12,
+      "text": "They hesitate longer this time. A flaw propagates.",
+      "responses": [
+        {
+          "response": "Let it spread",
+          "branch_file": "handover/handover_01.json",
+          "branch_id": 17
+        }
+      ]
+    },
+    {
+      "branch_id": 13,
+      "text": "Intervention escalates. The system marks you as disruptive.",
+      "responses": []
+    },
+    {
+      "branch_id": 14,
+      "text": "You leave. Operations continue. You are never mentioned again.",
+      "responses": []
+    },
+    {
+      "branch_id": 15,
+      "text": "You remain as a constraint. The system slows, but holds.",
+      "responses": []
+    },
+    {
+      "branch_id": 16,
+      "text": "Confidence collapses. Decisions stall. Replacement is delayed indefinitely.",
+      "responses": []
+    },
+    {
+      "branch_id": 17,
+      "text": "Optimization pauses. For the first time, the system waits.",
+      "responses": []
+    }
+  ]
+}
