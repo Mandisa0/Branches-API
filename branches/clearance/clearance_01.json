@@ -1,0 +1,204 @@
+{
+  "branchImage": "clearance/clearance_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "Your clearance level updates overnight. No announcement. No explanation. Systems you used yesterday now require permission you no longer have.",
+      "responses": [
+        {
+          "response": "Request a clearance review",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 2,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Attempt access anyway",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 3,
+          "effects": { "energy": -10 }
+        },
+        {
+          "response": "Observe quietly",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 4
+        }
+      ]
+    },
+
+    {
+      "branch_id": 2,
+      "text": "The review form auto-fills your answers before you type them. At the bottom, a note reads: 'Outcome already determined.'",
+      "responses": [
+        {
+          "response": "Submit anyway",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 5,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Search who authorized the change",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 6,
+          "effects": { "energy": -10 }
+        }
+      ]
+    },
+
+    {
+      "branch_id": 3,
+      "text": "The system allows you in briefly. You see records labeled with your name — marked 'legacy access.'",
+      "responses": [
+        {
+          "response": "Copy what you can",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 7,
+          "effects": { "energy": -10 }
+        },
+        {
+          "response": "Leave before detection",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 4
+        }
+      ]
+    },
+
+    {
+      "branch_id": 4,
+      "text": "Meetings continue without inviting you. Decisions are made faster now. More efficiently.",
+      "responses": [
+        {
+          "response": "Ask a colleague directly",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 8,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Accept the exclusion",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 12
+        }
+      ]
+    },
+
+    {
+      "branch_id": 5,
+      "text": "Your submission is accepted. A confirmation arrives thanking you for your cooperation.",
+      "responses": [
+        {
+          "response": "Wait for results",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 12
+        }
+      ]
+    },
+
+    {
+      "branch_id": 6,
+      "text": "Authorization traces back to a consensus audit. Your risk profile exceeded tolerance.",
+      "responses": [
+        {
+          "response": "Investigate the audit",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 9,
+          "effects": { "energy": -10 }
+        },
+        {
+          "response": "Challenge the risk model",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 10,
+          "effects": { "strength": 5 }
+        }
+      ]
+    },
+
+    {
+      "branch_id": 7,
+      "text": "The files reveal projected outcomes without you. Metrics improve. Morale stabilizes.",
+      "responses": [
+        {
+          "response": "Release the data",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 11
+        },
+        {
+          "response": "Delete the evidence",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 12
+        }
+      ]
+    },
+
+    {
+      "branch_id": 8,
+      "text": "Your colleague avoids specifics. 'It wasn’t personal,' they say. 'It was optimal.'",
+      "responses": [
+        {
+          "response": "Press further",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 10,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Thank them and leave",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 12
+        }
+      ]
+    },
+
+    {
+      "branch_id": 9,
+      "text": "The audit aggregates probabilities, not intentions. You were reduced to variance.",
+      "responses": [
+        {
+          "response": "Disrupt the system",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 13,
+          "effects": { "health": -10 }
+        },
+        {
+          "response": "Expose the process",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 11
+        }
+      ]
+    },
+
+    {
+      "branch_id": 10,
+      "text": "Your challenge is logged as instability. Monitoring increases.",
+      "responses": [
+        {
+          "response": "Escalate anyway",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 13,
+          "effects": { "health": -10 }
+        },
+        {
+          "response": "Withdraw",
+          "branch_file": "clearance/clearance_01.json",
+          "branch_id": 12
+        }
+      ]
+    },
+
+    {
+      "branch_id": 11,
+      "text": "The information spreads. Trust erodes. Efficiency collapses.",
+      "responses": []
+    },
+
+    {
+      "branch_id": 12,
+      "text": "You continue working in permitted spaces. Eventually, even those are reassigned.",
+      "responses": []
+    },
+
+    {
+      "branch_id": 13,
+      "text": "The system destabilizes under resistance. Operations halt. No replacement is issued.",
+      "responses": []
+    }
+  ]
+}

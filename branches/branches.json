@@ -125,6 +125,13 @@
             "description": "Your replacement is prepared while you are still present. The process is calm, thorough, and already underway.",
             "file": "handover/handover_01.json",
             "requirements": null
+        },
+        {
+            "image": "",
+            "title": "Clearance",
+            "description": "Your access is revoked without explanation. The system insists this is an improvement.",
+            "file": "clearance/clearance_01.json",
+            "requirements": null
         }
     ]
 }
