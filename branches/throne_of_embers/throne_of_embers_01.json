@@ -1,0 +1,172 @@
+{
+  "branchImage": "throne_of_embers/throne_of_embers_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "The king is dead, and the throne still burns. No one remembers who lit the embers beneath it, only that no ruler has sat there since. Tonight, the crown calls for judgment.",
+      "responses": [
+        {
+          "response": "Approach the throne",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 2,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Consult the gathered lords",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 3,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Search the ruins beneath the hall",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 4,
+          "effects": { "health": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 2,
+      "text": "Heat bleeds through your armor. The embers shift, reacting to your presence. The throne is not empty — it is waiting.",
+      "responses": [
+        {
+          "response": "Claim the crown",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 5,
+          "effects": { "health": -10, "strength": 10 }
+        },
+        {
+          "response": "Listen to the whispers in the fire",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 6,
+          "effects": { "energy": -10 }
+        }
+      ]
+    },
+    {
+      "branch_id": 3,
+      "text": "The lords argue in low voices. Each swears loyalty to the realm, none to each other. They watch you carefully.",
+      "responses": [
+        {
+          "response": "Back a single claimant",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 7,
+          "effects": { "strength": 5 }
+        },
+        {
+          "response": "Expose their fear of the throne",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 6,
+          "effects": { "energy": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 4,
+      "text": "Below the hall, you find old stone and older bones. Runes carved into the floor speak of a vow broken generations ago.",
+      "responses": [
+        {
+          "response": "Restore the ancient vow",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 8,
+          "effects": { "energy": -10 }
+        },
+        {
+          "response": "Erase the runes",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 9,
+          "effects": { "strength": 5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 5,
+      "text": "Fire accepts you. Flesh does not. The crown burns away doubt, mercy, and weakness.",
+      "responses": [
+        {
+          "response": "Rule through fire",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 10
+        }
+      ]
+    },
+    {
+      "branch_id": 6,
+      "text": "The fire remembers every ruler who failed it. It offers you a choice they never saw.",
+      "responses": [
+        {
+          "response": "End the line of kings",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 11
+        },
+        {
+          "response": "Bind the throne forever",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 12,
+          "effects": { "health": -10 }
+        }
+      ]
+    },
+    {
+      "branch_id": 7,
+      "text": "Your chosen lord ascends — briefly. The throne rejects them. The hall erupts.",
+      "responses": [
+        {
+          "response": "Seize control in the chaos",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 5,
+          "effects": { "health": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 8,
+      "text": "The vow renews itself. The embers dim. The throne sleeps.",
+      "responses": [
+        {
+          "response": "Leave the throne unclaimed",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 13
+        }
+      ]
+    },
+    {
+      "branch_id": 9,
+      "text": "The runes shatter. The embers surge violently, freed from restraint.",
+      "responses": [
+        {
+          "response": "Stand against the flame",
+          "branch_file": "throne_of_embers/throne_of_embers_01.json",
+          "branch_id": 14,
+          "effects": { "health": -10 }
+        }
+      ]
+    },
+    {
+      "branch_id": 10,
+      "text": "You become the Ember King. The realm survives — scorched, obedient, eternal.",
+      "responses": []
+    },
+    {
+      "branch_id": 11,
+      "text": "The throne collapses into ash. The age of crowns ends. The realm must choose its own future.",
+      "responses": []
+    },
+    {
+      "branch_id": 12,
+      "text": "You bind yourself to the throne as its final warden. Power remains — at the cost of your freedom.",
+      "responses": []
+    },
+    {
+      "branch_id": 13,
+      "text": "Without a king, the realm fractures slowly. No fire guides it now — only memory.",
+      "responses": []
+    },
+    {
+      "branch_id": 14,
+      "text": "The embers consume the hall. Legend speaks of a throne that no longer waits.",
+      "responses": []
+    }
+  ]
+}

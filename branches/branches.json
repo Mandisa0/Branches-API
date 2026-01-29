@@ -132,6 +132,13 @@
             "description": "Your access is revoked without explanation. The system insists this is an improvement.",
             "file": "clearance/clearance_01.json",
             "requirements": null
+        },
+        {
+            "image": "",
+            "title": "Throne of Embers",
+            "description": "The crown still burns. The throne still waits. What rises from the embers will decide whether the realm endures, fractures, or is consumed.",
+            "file": "throne_of_embers/throne_of_embers_01.json",
+            "requirements": null
         }
     ]
 }
