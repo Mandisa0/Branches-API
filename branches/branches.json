@@ -139,6 +139,13 @@
             "description": "The crown still burns. The throne still waits. What rises from the embers will decide whether the realm endures, fractures, or is consumed.",
             "file": "throne_of_embers/throne_of_embers_01.json",
             "requirements": null
+        },
+        {
+            "image": "",
+            "title": "Salt Ledger",
+            "description": "The sea keeps records. A debt is due, and your name is already written.",
+            "file": "salt_ledger/salt_ledger_01.json",
+            "requirements": null
         }
     ]
 }

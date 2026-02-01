@@ -1,0 +1,139 @@
+{
+  "branchImage": "salt_ledger/salt_ledger_01.png",
+  "nextBranchFile": null,
+  "branches": [
+    {
+      "branch_id": 1,
+      "text": "The sea withdrew without warning. Where water once stood, a ledger rests on the exposed seabed, bound in salt and iron. Your name is written on the first page.",
+      "responses": [
+        {
+          "response": "Open the ledger",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 2,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Search the shoreline for witnesses",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 3,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Leave before the tide returns",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 4
+        }
+      ]
+    },
+    {
+      "branch_id": 2,
+      "text": "The ledger records transactions that never occurred — storms paid for with villages, calm seas purchased with lives. Your name appears beside an unpaid balance.",
+      "responses": [
+        {
+          "response": "Search for the origin of the debt",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 5,
+          "effects": { "energy": -10 }
+        },
+        {
+          "response": "Attempt to erase your name",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 6,
+          "effects": { "strength": 5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 3,
+      "text": "Fishermen avoid your questions. One finally speaks: the ledger appears whenever the sea demands settlement.",
+      "responses": [
+        {
+          "response": "Ask who last held the ledger",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 5,
+          "effects": { "energy": -5 }
+        },
+        {
+          "response": "Offer payment to learn more",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 7,
+          "effects": { "health": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 4,
+      "text": "You turn away. Behind you, the sea hesitates — then advances further than it ever has before.",
+      "responses": [
+        {
+          "response": "Return to the ledger",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 2,
+          "effects": { "energy": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 5,
+      "text": "The debt was assigned before you were born. The ledger does not explain why, only that balances persist.",
+      "responses": [
+        {
+          "response": "Accept responsibility",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 8,
+          "effects": { "health": -10 }
+        },
+        {
+          "response": "Redirect the debt",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 9,
+          "effects": { "strength": 5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 6,
+      "text": "Salt burns your hands. The ink resists removal. The sea stirs in response.",
+      "responses": [
+        {
+          "response": "Persist despite the pain",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 10,
+          "effects": { "health": -10 }
+        },
+        {
+          "response": "Stop before it worsens",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 8
+        }
+      ]
+    },
+    {
+      "branch_id": 7,
+      "text": "The fisherman accepts your offering. The ledger cannot be destroyed — only closed by settlement.",
+      "responses": [
+        {
+          "response": "Settle the balance yourself",
+          "branch_file": "salt_ledger/salt_ledger_01.json",
+          "branch_id": 8,
+          "effects": { "health": -5 }
+        }
+      ]
+    },
+    {
+      "branch_id": 8,
+      "text": "The ledger closes. The tide returns gently. Storms cease — but something vital is missing from you.",
+      "responses": []
+    },
+    {
+      "branch_id": 9,
+      "text": "The ledger updates. Another name appears. The sea withdraws, satisfied — for now.",
+      "responses": []
+    },
+    {
+      "branch_id": 10,
+      "text": "The ledger tears. The sea does not forgive. Coastlines vanish by morning.",
+      "responses": []
+    }
+  ]
+}
